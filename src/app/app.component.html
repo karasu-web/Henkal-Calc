@@ -49,7 +49,7 @@
         <!-- <span class="input-unit-3">mm</span> -->
 
         <h3 class="child-title">JOINT GAP</h3>
-        <input placeholder="cm" type="number" [(ngModel)]="tileThickness" class="num-input" id="tileThickness">
+        <input placeholder="cm" type="number" [(ngModel)]="tileJoint" class="num-input" id="tileThickness">
         <!-- <span class="input-unit-4">mm</span> -->
         
         <h2 class="child-heading" style="margin-bottom: 15px;">3 Area size</h2>
@@ -87,7 +87,7 @@
       
 
       <p style="font-size: 12px;">Area</p>
-      <p style=" font-weight: bold; margin-bottom: 15px;">{{ sliderValue }}</p>
+      <p style=" font-weight: bold; margin-bottom: 15px;">{{ sliderValue }} m<sup>2</sup></p>
       <!-- AREA VALUE -->
 
       <h2 style="font-size: 14px;" class="child-heading"> YOU WILL NEED:</h2>
@@ -95,7 +95,7 @@
       <h2 style="font-size: 14px; margin-bottom: 15px;" class="child-heading"> CERESIT CE 40 AQUASTATIC</h2>
 
       <p style="font-size: 12px;">Product quantity needed</p>
-      <p style=" font-weight: bold; margin-bottom: 15px;">{{ result }} m<sup>2</sup> </p>
+      <p style=" font-weight: bold; margin-bottom: 15px;">{{ result }} Kg </p>
 
       <p style="font-size: 12px;">Packaging size</p>
       <p style=" font-weight: bold; margin-bottom: 15px;"> 2 kg </p>
