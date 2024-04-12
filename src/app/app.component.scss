@@ -121,15 +121,15 @@ h3.child-title {
     cursor: pointer;
     font-weight: 900;
     font-size: 16px;
-    border-radius: 1px;
+    border-radius: 30px;
     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.3019607843);
     transition: background 0.5s, color 0.5s, border-color 0.5s;
+    
   }
   
   .calc-button:hover {
-    background: #f8f8f8;
-    color: #E20F0F;
-    border-color: #E20F0F; /* Change border color on hover */
+    background: #000000;
+    color: #ffffff; /* Change border color on hover */
   }
 
 
