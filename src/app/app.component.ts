@@ -80,7 +80,10 @@ export class AppComponent {
     const screenWidth = window.innerWidth;
     if (screenWidth <= 768) { // Only execute for mobile screens
       this.isResultDisplayed = false; // Hide the right div
-      this.toggleLeftDivForMobile(); // Toggle the left div visibility
+      //this.toggleLeftDivForMobile(); // Toggle the left div visibility
+      const leftDiv = this.elementRef.nativeElement.querySelector('.left');
+      leftDiv.style.display = 'block';
+
       this.isLeftDivVisible = !this.isLeftDivVisible; // Toggle the value of isLeftDivVisible
     }
   }
