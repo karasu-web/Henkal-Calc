@@ -3,7 +3,7 @@
   
 
    <div class="parent" style="display: flex; justify-content: center;">
-    <div class="left">
+    <div class="left" >
       <h2 class="child-heading" style="margin-bottom: 15px;">1 Project type</h2>
       <div class="part-one">
         <h3 class="child-title">APPLICATION AREA</h3>
@@ -116,6 +116,7 @@
       <span style="margin-bottom: 8px;" class="horizontal-line"></span>
 
       <p style="font-size: 12px; text-align: center; margin-right:55px ">Download a Report</p>
+      <button *ngIf="isMobileScreen()" class="mobile-button" (click)="toggleLeftAndRightDivs()">Recalculate</button>
 
 
     </div>
