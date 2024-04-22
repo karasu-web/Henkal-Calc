@@ -17,7 +17,7 @@
     background: #FFFFFF;
     display: flex!important;
     justify-content: flex-start!important;
-    
+    height: fit-content;
     width: 830px;
     margin-left: auto;
     margin-right: auto;
@@ -153,3 +153,81 @@ h3.child-title {
     border-radius: 25px;
     height: 10px;
   }
+
+
+
+
+  /* CSS for mobile devices */
+@media screen and (max-width: 767px) {
+
+  body, html {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    height: 100%; /* Set body and html height to 100% */
+  }
+
+  .container {
+    min-height: 100%; /* Set container min-height to 100% */
+  }
+
+  .parent {
+    flex-direction: column; /* Display the parent div in a column */
+  }
+
+  .left {
+    display: block; /* Show the left div */
+  }
+
+ 
+.heading {
+    padding-left: 65px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.parent {
+  background: #FFFFFF;
+  
+  justify-content: flex-start !important;
+  margin-left: -20px;
+  margin-right: auto;
+   /* Adjust height based on content */
+}
+
+
+.right {
+  background: #007ED9;
+  width: 275px;
+  color: white;
+  padding-left: 65px;
+  padding-top: 33px;
+  margin-top: 50px;
+  margin-bottom: 65px;
+  margin-left: 67px;
+  position: relative;
+  top: -922px;
+  padding-bottom: 63px;
+}
+
+.left {
+  width: 350px;
+  height: fit-content;
+  margin-left: 70px;
+  padding-top: 25px;
+  padding-bottom: 100px;
+}
+
+.slider-input {
+  width: 320px;
+  outline: none;
+  background: #fdfdfd;
+  border-radius: 25px;
+  height: 10px;
+  box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 35px;
+}
+
+
+
+}
