@@ -6,6 +6,9 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { FormsModule } from '@angular/forms';
 import { MatSliderModule } from '@angular/material/slider';
 import { CommonModule } from '@angular/common';
+import * as translations from '../assets/pl.json';
+
+
 
 @Component({
   selector: 'app-root',
@@ -24,6 +27,8 @@ export class AppComponent {
   tileThickness: number = 1;
   tileJoint: number = 3;
   sliderValue: number = 10;
+
+  translations = translations;
 
   // Constants
   density: number = 1.8;
