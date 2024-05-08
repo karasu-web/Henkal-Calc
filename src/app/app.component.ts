@@ -6,7 +6,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { FormsModule } from '@angular/forms';
 import { MatSliderModule } from '@angular/material/slider';
 import { CommonModule } from '@angular/common';
-import { ElementRef } from '@angular/core';
+import * as translations from '../assets/pl.json';
 
 
 
@@ -27,13 +27,11 @@ export class AppComponent {
   tileThickness: number = 1;
   tileJoint: number = 3;
   sliderValue: number = 10;
-  isLeftDivVisible: boolean = true;
+
+  translations = translations;
 
   // Constants
   density: number = 1.8;
-
-
-  constructor(private elementRef: ElementRef) {}
 
   updateValue(event: Event) {
     const inputElement = event.target as HTMLInputElement;
@@ -48,12 +46,6 @@ export class AppComponent {
     this.isResultDisplayed = true; // Show the right div when the calculation is performed
     this.calculateResult();
     this.prevSelectedTile = this.selectedtile;
-    this.toggleLeftDivForMobile(); 
-     
-  }
-
-  isMobileScreen(): boolean {
-    return window.innerWidth <= 768; // Adjust the screen width breakpoint as needed
   }
 
   calculateResult() {
@@ -64,27 +56,5 @@ export class AppComponent {
     const rawResult = this.density * ((this.tileJoint * this.tileThickness * this.sliderValue * LG) * 0.001) / 100;
 
     this.result = parseFloat(rawResult.toFixed(2));
-  }
-
-  toggleLeftDivForMobile() {
-    const screenWidth = window.innerWidth;
-    if (screenWidth <= 768) { // Adjust the screen width breakpoint as needed
-      const leftDiv = this.elementRef.nativeElement.querySelector('.left');
-      leftDiv.style.display = 'none';
-    }
-  }
-
-  
-
-  toggleLeftAndRightDivs() {
-    const screenWidth = window.innerWidth;
-    if (screenWidth <= 768) { // Only execute for mobile screens
-      this.isResultDisplayed = false; // Hide the right div
-      //this.toggleLeftDivForMobile(); // Toggle the left div visibility
-      const leftDiv = this.elementRef.nativeElement.querySelector('.left');
-      leftDiv.style.display = 'block';
-
-      this.isLeftDivVisible = !this.isLeftDivVisible; // Toggle the value of isLeftDivVisible
-    }
   }
 }

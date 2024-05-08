@@ -1,58 +1,52 @@
 <div class="container">
-  <h1 class="heading">TILE GROUT FINDER AND CALCULATOR</h1>
-  
+  <h1 class="heading">{{ translations.TILE_GROUT_FINDER_AND_CALCULATOR }}</h1>
 
-   <div class="parent" style="display: flex; justify-content: center;">
-    <div class="left" >
-      <h2 class="child-heading" style="margin-bottom: 15px;">1 Project type</h2>
+  <div class="parent" style="display: flex; justify-content: center;">
+    <div class="left">
+      <h2 class="child-heading" style="margin-bottom: 15px;">{{ translations.PROJECT_TYPE }}</h2>
       <div class="part-one">
-        <h3 class="child-title">APPLICATION AREA</h3>
-      <!-- SELECT COMPONENT  -->
-      <select class="dropdown" style="margin-bottom: 20px;" [(ngModel)]="selectedarea">
-        <option disabled selected value="">Please choose an option</option>
-        <option style="border-bottom: 1px solid black;" value="Bathrooms">Bathrooms</option>
-        <option value="Kitchen">Kitchen</option>
-        <option value="Living rooms">Living rooms</option>
-        <option value="Entrance/corridor">Entrance/corridor</option>
-        <option value="Pools">Pools</option>
-        <option value="Balconies/Terraces">Balconies/Terraces</option>
-        <option value="Heavy Traffic Area">Heavy Traffic Area</option>
-        <!-- <option value="Industrial areas (car washing/industrial kitchen/foodproduction/labs etc…)">Industrial areas (car washing/industrial kitchen/food  production/labs etc…)</option> -->
-        <option value="Spas, hammams (incl public areas)">Spas, hammams (incl public areas)</option>
-      </select>
+        <h3 class="child-title">{{ translations.APPLICATION_AREA }}</h3>
+        <!-- SELECT COMPONENT  -->
+        <select class="dropdown" style="margin-bottom: 20px;" [(ngModel)]="selectedarea">
+          <option disabled selected value="">{{ translations.PLEASE_CHOOSE_AN_OPTION }}</option>
+          <option style="border-bottom: 1px solid black;" value="Bathrooms">{{ translations.BATHROOMS }}</option>
+          <option value="Kitchen">{{ translations.KITCHEN }}</option>
+          <option value="Living rooms">{{ translations.LIVING_ROOMS }}</option>
+          <option value="Entrance/corridor">{{ translations.ENTRANCE_CORRIDOR }}</option>
+          <option value="Pools">{{ translations.POOLS }}</option>
+          <option value="Balconies/Terraces">{{ translations.BALCONIES_TERRACES }}</option>
+          <option value="Heavy Traffic Area">{{ translations.HEAVY_TRAFFIC_AREA }}</option>
+          <option value="Spas, hammams (incl public areas)">{{ translations.SPAS_HAMMAMS }}</option>
+        </select>
 
-      <h3 class="child-title">TILE TYPE ⓘ</h3>
-      <!-- SELECT COMPONENT  -->
-      <select class="dropdown" style="margin-bottom: 20px;" [(ngModel)]="selectedtile">
-        <option disabled selected value="">Please choose an option</option>
-        <option style="border-bottom: 1px solid black;" value="Gres">Gres</option>
-        <option value="Porcelain">Porcelain</option>
-        <option value="Earthenware">Earthenware</option>
-        <option value="Stoneware">Stoneware</option>
-        <option value="Natural stone">Natural stone</option>
-        <option value="Glass mosaics">Glass mosaics</option>
-        <option value="Mosaic">Mosaic</option>
-      </select>
+        <h3 class="child-title">{{ translations.TILE_TYPE }}</h3>
+        <!-- SELECT COMPONENT  -->
+        <select class="dropdown" style="margin-bottom: 20px;" [(ngModel)]="selectedtile">
+          <option disabled selected value="">{{ translations.PLEASE_CHOOSE_AN_OPTION }}</option>
+          <option style="border-bottom: 1px solid black;" value="Gres">{{ translations.GRES }}</option>
+          <option value="Porcelain">{{ translations.PORCELAIN }}</option>
+          <option value="Earthenware">{{ translations.EARTHENWARE }}</option>
+          <option value="Stoneware">{{ translations.STONEWARE }}</option>
+          <option value="Natural stone">{{ translations.NATURAL_STONE }}</option>
+          <option value="Glass mosaics">{{ translations.GLASS_MOSAICS }}</option>
+          <option value="Mosaic">{{ translations.MOSAIC }}</option>
+        </select>
       </div>
       <div class="part-two">
-        <h2 class="child-heading" style="margin-bottom: 15px;">2 Tile measurements</h2>
-        <h3 class="child-title">TILE WIDTH (cm)</h3>
+        <h2 class="child-heading" style="margin-bottom: 15px;">{{ translations.TILE_MEASUREMENTS }}</h2>
+        <h3 class="child-title">{{ translations.TILE_WIDTH }}</h3>
         <input type="number" [(ngModel)]="tileWidth" class="num-input" id="tileWidth">
-        <!-- <span class="input-unit">cm</span> -->
 
-        <h3 class="child-title">TILE HEIGHT (cm)</h3>
+        <h3 class="child-title">{{ translations.TILE_HEIGHT }}</h3>
         <input placeholder="cm" type="number" [(ngModel)]="tileHeight" class="num-input" id="tileWidth">
-        <!-- <span class="input-unit-2">cm</span> -->
 
-        <h3 class="child-title">THICKNESS (mm)</h3>
+        <h3 class="child-title">{{ translations.THICKNESS }}</h3>
         <input placeholder="cm" type="number" [(ngModel)]="tileThickness" class="num-input" id="tileThickness">
-        <!-- <span class="input-unit-3">mm</span> -->
 
-        <h3 class="child-title">JOINT GAP (mm)</h3>
+        <h3 class="child-title">{{ translations.JOINT_GAP }}</h3>
         <input placeholder="cm" type="number" [(ngModel)]="tileJoint" class="num-input" id="tileThickness">
-        <!-- <span class="input-unit-4">mm</span> -->
         
-        <h2 class="child-heading" style="margin-bottom: 15px;">3 Area size</h2>
+        <h2 class="child-heading" style="margin-bottom: 15px;">{{ translations.AREA_SIZE }}</h2>
         <div style=" border: 1px solid black;
         padding: 0px !important;
         width: 80px;
@@ -67,61 +61,50 @@
           <div class="slider">
             <input class="slider-input" type="range" min="0" max="100" value="10" (input)="updateValue($event)">
           </div>
-      
         </div>
-        
 
         <button class="calc-button" (click)="toggleCalculate()">{{ isCalculating ? 'New Calculation >' : 'Calculate > ' }}</button>
 
       </div>
-       
     </div>
 
     <!-- RIGHT DIV -->
-    <div class="right"  *ngIf="isResultDisplayed" >
-      <h2 style="font-size: 14px; margin-top: 10px;" class="child-heading"> YOUR WORK:</h2>
+    <div class="right" *ngIf="isResultDisplayed">
+      <h2 style="font-size: 14px; margin-top: 10px;" class="child-heading">{{ translations.YOUR_WORK }}</h2>
       <span style="margin-bottom: 15px;" class="horizontal-line"></span>
       
-      <p style="font-size: 12px; margin-bottom: -2px;">Tile Type</p>
-      <p style="font-weight: bold; margin-bottom: 15px;">{{prevSelectedTile}}</p>
-      
+      <p style="font-size: 12px; margin-bottom: -2px;">{{ translations.TILE_TYPE }}</p>
+      <p style="font-weight: bold; margin-bottom: 15px;">{{ prevSelectedTile }}</p>
 
-      <p style="font-size: 12px;">Area</p>
-      <p style=" font-weight: bold; margin-bottom: 15px;">{{ sliderValue }} m<sup>2</sup></p>
-      <!-- AREA VALUE -->
+      <p style="font-size: 12px;">{{ translations.AREA }}</p>
+      <p style="font-weight: bold; margin-bottom: 15px;">{{ sliderValue }} m<sup>2</sup></p>
 
-      <h2 style="font-size: 14px;" class="child-heading"> YOU WILL NEED:</h2>
+      <h2 style="font-size: 14px;" class="child-heading">{{ translations.YOU_WILL_NEED }}</h2>
       <span style="margin-bottom: 15px;" class="horizontal-line"></span>
-      <h2 style="font-size: 14px; margin-bottom: 15px;" class="child-heading"> CERESIT CE 40 AQUASTATIC</h2>
+      <h2 style="font-size: 14px; margin-bottom: 15px;" class="child-heading"> CERESIT CE 40 AQUASTATIC </h2>
 
-      <p style="font-size: 12px;">Product quantity needed</p>
-      <p style=" font-weight: bold; margin-bottom: 15px;">{{ result }} Kg </p>
+      <p style="font-size: 12px;">{{ translations.PRODUCT_QUANTITY_NEEDED }}</p>
+      <p style="font-weight: bold; margin-bottom: 15px;">{{ result }} Kg </p>
 
-      <p style="font-size: 12px;">Packaging size</p>
-      <p style=" font-weight: bold; margin-bottom: 15px;"> 2 kg </p>
+      <p style="font-size: 12px;">{{ translations.PACKAGING_SIZE }}</p>
+      <p style="font-weight: bold; margin-bottom: 15px;"> 2 kg </p>
 
-      <p style="font-size: 12px;">Number of units</p>
-      <p style=" font-weight: bold; margin-bottom: 15px; text-decoration: underline;"> 1 </p>
+      <p style="font-size: 12px;">{{ translations.NUMBER_OF_UNITS }}</p>
+      <p style="font-weight: bold; margin-bottom: 15px; text-decoration: underline;"> 1 </p>
 
-      <p style="font-size: 12px;">Packaging size</p>
-      <p style=" font-weight: bold; margin-bottom: 15px;"> 5 kg </p>
+      <p style="font-size: 12px;">{{ translations.PACKAGING_SIZE }}</p>
+      <p style="font-weight: bold; margin-bottom: 15px;"> 5 kg </p>
 
-      <p style="font-size: 12px;">Number of units</p>
-      <p style=" font-weight: bold; margin-bottom: 15px;"> 1</p>
+      <p style="font-size: 12px;">{{ translations.NUMBER_OF_UNITS }}</p>
+      <p style="font-weight: bold; margin-bottom: 15px;"> 1</p>
 
       <img style="width: 188px;" src="assets/product.webp" alt="Product Image">
       
-      <a style="color: white; text-decoration: none;" href="https://preview-cms-a.brands.henkel.com/content/uac/ceresit-2019/com/en/products/tiling/tiling-grouts/flex-grouts/ceresit-ce-40.html"><p style="font-size: 10px;">View more</p></a>
+      <a style="color: white; text-decoration: none;" href="https://preview-cms-a.brands.henkel.com/content/uac/ceresit-2019/com/en/products/tiling/tiling-grouts/flex-grouts/ceresit-ce-40.html"><p style="font-size: 10px;">{{ translations.VIEW_MORE }}</p></a>
 
       <span style="margin-bottom: 8px;" class="horizontal-line"></span>
 
-      <p class="download">Download a Report</p>
-      <button *ngIf="isMobileScreen()" class="mobile-button" (click)="toggleLeftAndRightDivs()">Recalculate</button>
-
-
+      <p style="font-size: 12px; text-align: center; margin-right:55px">{{ translations.DOWNLOAD_A_REPORT }}</p>
     </div>
-
-   
-      
-   </div>
+  </div>
 </div>
