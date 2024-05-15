@@ -7,7 +7,7 @@ import { FormsModule } from '@angular/forms';
 import { MatSliderModule } from '@angular/material/slider';
 import { CommonModule } from '@angular/common';
 import * as translations from '../assets/pl.json';
-
+import * as productImages from '../assets/PI.json';
 
 
 @Component({
@@ -15,7 +15,7 @@ import * as translations from '../assets/pl.json';
   standalone: true,
   imports: [RouterOutlet, CommonModule, FormsModule, MatFormFieldModule, MatSelectModule, MatInputModule, MatSliderModule],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
   title = 'my-calc';
@@ -29,6 +29,7 @@ export class AppComponent {
   sliderValue: number = 10;
 
   translations = translations;
+  productImages: any = productImages;
 
   // Constants
   density: number = 1.8;
@@ -57,4 +58,19 @@ export class AppComponent {
 
     this.result = parseFloat(rawResult.toFixed(2));
   }
+
+  getImageUrls(area: string, tile: string): string[] {
+    // Check if the combination exists in the JSON object and if it has multiple images
+    if (this.productImages[area] && this.productImages[area][tile] && Array.isArray(this.productImages[area][tile])) {
+      return this.productImages[area][tile];
+    } else if (this.productImages[area] && this.productImages[area][tile]) {
+      // If the combination exists but has only one image, wrap it in an array
+      return [this.productImages[area][tile]];
+    } else {
+      // Return a default image URL or handle the case where the combination doesn't exist
+      return ['path/to/default_image.jpg'];
+    }
+  }
+  
+
 }
