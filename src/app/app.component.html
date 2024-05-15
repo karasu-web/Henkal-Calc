@@ -98,7 +98,10 @@
       <p style="font-size: 12px;">{{ translations.NUMBER_OF_UNITS }}</p>
       <p style="font-weight: bold; margin-bottom: 15px;"> 1</p>
 
-      <img style="width: 188px;" src="assets/product.webp" alt="Product Image">
+      <div *ngFor="let imageUrl of getImageUrls(selectedarea, selectedtile)">
+        <img style="width: 188px;" [src]="imageUrl" alt="Product Image">
+      </div>
+
       
       <a style="color: white; text-decoration: none;" href="https://preview-cms-a.brands.henkel.com/content/uac/ceresit-2019/com/en/products/tiling/tiling-grouts/flex-grouts/ceresit-ce-40.html"><p style="font-size: 10px;">{{ translations.VIEW_MORE }}</p></a>
 
