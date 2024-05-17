@@ -1,39 +1,39 @@
 {
     "Bathrooms": {
-      "Gres": ["assets/p1.webp", "assets/p2.webp"],
-      "Porcelain": "assets/p2.webp",
-      "Earthenware": "assets/p3.webp",
-      "Stoneware": "assets/p4.webp",
-      "Natural stone": "assets/p1.webp",
-      "Glass mosaics": "assets/p2.webp",
-      "Mosaic": "assets/p3.webp"
+      "Gres": ["assets/p2.webp", "assets/p4.webp"],
+      "Porcelain": ["assets/p2.webp", "assets/p4.webp"],
+      "Earthenware": ["assets/p2.webp", "assets/p4.webp", "assets/p1.webp"], 
+      "Stoneware": ["assets/p2.webp", "assets/p4.webp", "assets/p1.webp"], 
+      "Natural stone": ["assets/p2.webp", "assets/p4.webp"], 
+      "Glass mosaics": ["assets/p5.webp", "assets/p4.webp"],
+      "Mosaic": ["assets/p2.webp", "assets/p4.webp"]
     },
     "Kitchen": {
-      "Gres": "assets/p2.webp",
-      "Porcelain": "assets/p3.webp",
-      "Earthenware": "assets/p4.webp",
-      "Stoneware": "assets/p1.webp",
-      "Natural stone": "assets/p2.webp",
-      "Glass mosaics": "assets/p3.webp",
-      "Mosaic": "assets/p4.webp"
+      "Gres": ["assets/p2.webp", "assets/p4.webp"],
+      "Porcelain": ["assets/p2.webp", "assets/p4.webp"],
+      "Earthenware": ["assets/p2.webp", "assets/p4.webp", "assets/p1.webp"],
+      "Stoneware": ["assets/p2.webp", "assets/p4.webp", "assets/p1.webp"],
+      "Natural stone":  ["assets/p2.webp", "assets/p4.webp"],
+      "Glass mosaics": "assets/p4.webp",
+      "Mosaic": ["assets/p2.webp", "assets/p4.webp"]
     },
     "Living rooms": {
-      "Gres": "assets/p3.webp",
-      "Porcelain": "assets/p4.webp",
-      "Earthenware": "assets/p1.webp",
-      "Stoneware": "assets/p2.webp",
-      "Natural stone": "assets/p3.webp",
-      "Glass mosaics": "assets/p4.webp",
-      "Mosaic": "assets/p1.webp"
+      "Gres": ["assets/p2.webp", "assets/p4.webp"],
+      "Porcelain": ["assets/p2.webp", "assets/p4.webp"],
+      "Earthenware": ["assets/p2.webp", "assets/p4.webp", "assets/p1.webp"], 
+      "Stoneware": ["assets/p2.webp", "assets/p4.webp", "assets/p1.webp"],
+      "Natural stone": ["assets/p2.webp", "assets/p4.webp"],
+      "Glass mosaics": ["assets/p4.webp", "assets/p5.webp"],
+      "Mosaic":  ["assets/p2.webp", "assets/p4.webp"]
     },
     "Entrance/corridor": {
-      "Gres": "assets/p4.webp",
-      "Porcelain": "assets/p1.webp",
-      "Earthenware": "assets/p2.webp",
-      "Stoneware": "assets/p3.webp",
+      "Gres":["assets/p2.webp", "assets/p4.webp"],
+      "Porcelain": ["assets/p2.webp", "assets/p4.webp"],
+      "Earthenware": ["assets/p4.webp", "assets/p3.webp"],
+      "Stoneware": ["assets/p4.webp", "assets/p3.webp"],
       "Natural stone": "assets/p4.webp",
-      "Glass mosaics": "assets/p1.webp",
-      "Mosaic": "assets/p2.webp"
+      "Glass mosaics": ["assets/p4.webp", "assets/p5.webp"],
+      "Mosaic":["assets/p4.webp", "assets/p3.webp"]
     },
     "Pools": {
       "Gres": "assets/p1.webp",
