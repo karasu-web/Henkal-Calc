@@ -9,7 +9,6 @@ import { CommonModule } from '@angular/common';
 import * as translations from '../assets/pl.json';
 import * as productImages from '../assets/PI.json';
 
-
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -30,6 +29,11 @@ export class AppComponent {
 
   translations = translations;
   productImages: any = productImages;
+  
+  imageData: { images: string[], isValid: boolean, message?: string } = { images: [], isValid: true };
+  updateSelection(area: string, tile: string) {
+    this.imageData = this.getImageUrls(area, tile);
+  }
 
   // Constants
   density: number = 1.8;
@@ -38,6 +42,7 @@ export class AppComponent {
     const inputElement = event.target as HTMLInputElement;
     this.sliderValue = parseInt(inputElement.value, 10);
   }
+
   isCalculating: boolean = false;
   isResultDisplayed: boolean = false;
   result: number = 0;
@@ -59,18 +64,32 @@ export class AppComponent {
     this.result = parseFloat(rawResult.toFixed(2));
   }
 
-  getImageUrls(area: string, tile: string): string[] {
-    // Check if the combination exists in the JSON object and if it has multiple images
-    if (this.productImages[area] && this.productImages[area][tile] && Array.isArray(this.productImages[area][tile])) {
-      return this.productImages[area][tile];
-    } else if (this.productImages[area] && this.productImages[area][tile]) {
-      // If the combination exists but has only one image, wrap it in an array
-      return [this.productImages[area][tile]];
+  getImageUrls(area: string, tile: string): any {
+    const areaData = this.productImages[area];
+    if (areaData && areaData[tile]) {
+      if (Array.isArray(areaData[tile])) {
+        return { images: areaData[tile], isValid: true }; // Return valid image URLs
+      } else {
+        // Return a message when invalid
+        return { message: areaData[tile], isValid: false };
+      }
     } else {
       // Return a default image URL or handle the case where the combination doesn't exist
-      return ['path/to/default_image.jpg'];
+      return { images: ['path/to/default_image.jpg'], isValid: true };
     }
   }
   
 
+  getTranslatedTile(tileTypeEnglish: string): string {
+    switch (tileTypeEnglish) {
+      case 'Gres': return this.translations.GRES;
+      case 'Porcelain': return this.translations.PORCELAIN;
+      case 'Earthenware': return this.translations.EARTHENWARE;
+      case 'Stoneware': return this.translations.STONEWARE;
+      case 'Natural stone': return this.translations.NATURAL_STONE;
+      case 'Glass mosaics': return this.translations.GLASS_MOSAICS;
+      case 'Mosaic': return this.translations.MOSAIC;
+      default: return tileTypeEnglish; // Default to English if no translation found
+    }
+  }
 }
