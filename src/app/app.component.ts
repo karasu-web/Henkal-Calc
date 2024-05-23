@@ -150,7 +150,7 @@ export class AppComponent {
 
         return result;
       } else {
-        return { message: 'Invalid tile configuration', isValid: false };
+        return { message: 'Nie zalecamy żadnego produktu do tego zastosowania', isValid: false };
       }
     } else {
       return { images: ['path/to/default_image.jpg'], isValid: true };
