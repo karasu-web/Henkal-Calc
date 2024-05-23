@@ -6,9 +6,7 @@
       <h2 class="child-heading" style="margin-bottom: 15px;">{{ translations.PROJECT_TYPE }}</h2>
       <div class="part-one">
         <h3 class="child-title">{{ translations.APPLICATION_AREA }}</h3>
-        <!-- SELECT COMPONENT  -->
-        <select class="dropdown" [(ngModel)]="selectedarea" (ngModelChange)="updateSelection(selectedarea, selectedtile)">
-
+        <select class="dropdown" [(ngModel)]="selectedarea">
           <option disabled selected value="">{{ translations.PLEASE_CHOOSE_AN_OPTION }}</option>
           <option style="border-bottom: 1px solid black;" value="Bathrooms">{{ translations.BATHROOMS }}</option>
           <option value="Kitchen">{{ translations.KITCHEN }}</option>
@@ -21,9 +19,7 @@
         </select>
 
         <h3 class="child-title">{{ translations.TILE_TYPE }}</h3>
-        <!-- SELECT COMPONENT  -->
-        <select class="dropdown" [(ngModel)]="selectedtile" (ngModelChange)="updateSelection(selectedarea, selectedtile)">
-
+        <select class="dropdown" [(ngModel)]="selectedtile">
           <option disabled selected value="">{{ translations.PLEASE_CHOOSE_AN_OPTION }}</option>
           <option style="border-bottom: 1px solid black;" value="Gres">{{ translations.GRES }}</option>
           <option value="Porcelain">{{ translations.PORCELAIN }}</option>
@@ -49,13 +45,7 @@
         <input placeholder="cm" type="number" [(ngModel)]="tileJoint" class="num-input" id="tileThickness">
         
         <h2 class="child-heading" style="margin-bottom: 15px;">{{ translations.AREA_SIZE }}</h2>
-        <div style=" border: 1px solid black;
-        padding: 0px !important;
-        width: 80px;
-        text-align: center;
-        margin: 0 auto;
-        height: 26px;
-        margin-bottom: 15px;   ">
+        <div style=" border: 1px solid black; padding: 0px !important; width: 80px; text-align: center; margin: 0 auto; height: 26px; margin-bottom: 15px;">
           <p style=" font-weight: bold; margin-bottom: 10px;">{{ sliderValue }} m<sup>2</sup> </p>
         </div>
 
@@ -66,11 +56,9 @@
         </div>
 
         <button class="calc-button" (click)="toggleCalculate()">{{ isCalculating ? 'Nowe obliczenia >' : 'Oblicz > ' }}</button>
-
       </div>
     </div>
 
-    <!-- RIGHT DIV -->
     <div class="right" *ngIf="isResultDisplayed">
       <h2 style="font-size: 14px; margin-top: 10px;" class="child-heading">{{ translations.YOUR_WORK }}</h2>
       <span style="margin-bottom: 15px;" class="horizontal-line"></span>
@@ -78,39 +66,69 @@
       <p style="font-size: 12px; margin-bottom: -2px;">{{ translations.TILE_TYPE }}</p>
       <p style="font-weight: bold; margin-bottom: 15px;">{{ getTranslatedTile(prevSelectedTile) }}</p>
 
-
       <p style="font-size: 12px;">{{ translations.AREA }}</p>
       <p style="font-weight: bold; margin-bottom: 15px;">{{ sliderValue }} m<sup>2</sup></p>
 
       <h2 style="font-size: 14px;" class="child-heading">{{ translations.YOU_WILL_NEED }}</h2>
       <span style="margin-bottom: 15px;" class="horizontal-line"></span>
-      <h2 style="font-size: 14px; margin-bottom: 15px;" class="child-heading"> CERESIT CE 40 AQUASTATIC </h2>
-
-      <p style="font-size: 12px;">{{ translations.PRODUCT_QUANTITY_NEEDED }}</p>
-      <p style="font-weight: bold; margin-bottom: 15px;">{{ result }} Kg </p>
-
-      <p style="font-size: 12px;">{{ translations.PACKAGING_SIZE }}</p>
-      <p style="font-weight: bold; margin-bottom: 15px;"> 2 kg </p>
-
-      <p style="font-size: 12px;">{{ translations.NUMBER_OF_UNITS }}</p>
-      <p style="font-weight: bold; margin-bottom: 15px; text-decoration: underline;"> 1 </p>
-
-      <p style="font-size: 12px;">{{ translations.PACKAGING_SIZE }}</p>
-      <p style="font-weight: bold; margin-bottom: 15px;"> 5 kg </p>
-
-      <p style="font-size: 12px;">{{ translations.NUMBER_OF_UNITS }}</p>
-      <p style="font-weight: bold; margin-bottom: 15px;"> 1</p>
 
       <div *ngIf="imageData.isValid; else invalidMessage">
-        <div *ngFor="let imageUrl of imageData.images">
-          <img style="width: 188px; padding-bottom: 20px;" [src]="imageUrl" alt="Product Image">
+        <div *ngIf="imageData.name">
+          <h3>{{ imageData.name }}</h3>
+          <p style="font-size: 12px;">{{ translations.PRODUCT_QUANTITY_NEEDED }}</p>
+          <p style="font-weight: bold; margin-bottom: 15px;">{{ result }} Kg</p>
+          <p style="font-size: 12px;">{{ translations.PACKAGING_SIZE }}</p>
+          <p>{{ imageData.size1 }}</p>
+          <p style="font-size: 12px;">{{ translations.NUMBER_OF_UNITS }}</p>
+          <p>{{ imageData.unit1 }}</p>
+          <p style="font-size: 12px;">{{ translations.PACKAGING_SIZE }}</p>
+          <p>{{ imageData.size2 }}</p>
+          <p style="font-size: 12px;">{{ translations.NUMBER_OF_UNITS }}</p>
+          <p>{{ imageData.unit2 }}</p>
+          <div *ngFor="let imageUrl of imageData.images">
+            <img style="width: 188px; padding-bottom: 20px;" [src]="imageUrl" alt="{{ imageData.name }}">
+          </div>
+        </div>
+      
+        <div *ngIf="imageData.name2">
+          <h3>{{ imageData.name2 }}</h3>
+          <p style="font-size: 12px;">{{ translations.PRODUCT_QUANTITY_NEEDED }}</p>
+          <p style="font-weight: bold; margin-bottom: 15px;">{{ result }} Kg</p>
+          <p style="font-size: 12px;">{{ translations.PACKAGING_SIZE }}</p>
+          <p>{{ imageData.size3 }}</p>
+          <p style="font-size: 12px;">{{ translations.NUMBER_OF_UNITS }}</p>
+          <p>{{ imageData.unit3 }}</p>
+          <p style="font-size: 12px;">{{ translations.PACKAGING_SIZE }}</p>
+          <p>{{ imageData.size4 }}</p>
+          <p style="font-size: 12px;">{{ translations.NUMBER_OF_UNITS }}</p>
+          <p>{{ imageData.unit4 }}</p>
+          <div *ngFor="let imageUrl of imageData.images2">
+            <img style="width: 188px; padding-bottom: 20px;" [src]="imageUrl" alt="{{ imageData.name2 }}">
+          </div>
+        </div>
+      
+        <div *ngIf="imageData.name3">
+          <h3>{{ imageData.name3 }}</h3>
+          <p style="font-size: 12px;">{{ translations.PRODUCT_QUANTITY_NEEDED }}</p>
+          <p style="font-weight: bold; margin-bottom: 15px;">{{ result }} Kg</p>
+          <p style="font-size: 12px;">{{ translations.PACKAGING_SIZE }}</p>
+          <p>{{ imageData.size5 }}</p>
+          <p style="font-size: 12px;">{{ translations.NUMBER_OF_UNITS }}</p>
+          <p>{{ imageData.unit5 }}</p>
+          <p style="font-size: 12px;">{{ translations.PACKAGING_SIZE }}</p>
+          <p>{{ imageData.size6 }}</p>
+          <p style="font-size: 12px;">{{ translations.NUMBER_OF_UNITS }}</p>
+          <p>{{ imageData.unit6 }}</p>
+          <div *ngFor="let imageUrl of imageData.images3">
+            <img style="width: 188px; padding-bottom: 20px;" [src]="imageUrl" alt="{{ imageData.name3 }}">
+          </div>
         </div>
       </div>
+      
       <ng-template #invalidMessage>
-        <p style="color: red;">{{ imageData.message }}</p>
+        <p style="color: rgb(255, 255, 255);">{{ imageData.message }}</p>
       </ng-template>
 
-      
       <a style="color: white; text-decoration: none;" href="https://preview-cms-a.brands.henkel.com/content/uac/ceresit-2019/com/en/products/tiling/tiling-grouts/flex-grouts/ceresit-ce-40.html"><p style="font-size: 10px;">{{ translations.VIEW_MORE }}</p></a>
 
       <span style="margin-bottom: 8px;" class="horizontal-line"></span>
