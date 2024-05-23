@@ -85,6 +85,7 @@
           <p>{{ imageData.size2 }}</p>
           <p style="font-size: 12px;">{{ translations.NUMBER_OF_UNITS }}</p>
           <p>{{ imageData.unit2 }}</p>
+          <p>{{ imageData.text }}</p>
           <div *ngFor="let imageUrl of imageData.images">
             <img style="width: 188px; padding-bottom: 20px;" [src]="imageUrl" alt="{{ imageData.name }}">
           </div>
@@ -102,6 +103,7 @@
           <p>{{ imageData.size4 }}</p>
           <p style="font-size: 12px;">{{ translations.NUMBER_OF_UNITS }}</p>
           <p>{{ imageData.unit4 }}</p>
+          <p>{{ imageData.text }}</p>
           <div *ngFor="let imageUrl of imageData.images2">
             <img style="width: 188px; padding-bottom: 20px;" [src]="imageUrl" alt="{{ imageData.name2 }}">
           </div>
@@ -119,6 +121,7 @@
           <p>{{ imageData.size6 }}</p>
           <p style="font-size: 12px;">{{ translations.NUMBER_OF_UNITS }}</p>
           <p>{{ imageData.unit6 }}</p>
+          <p>{{ imageData.text }}</p>
           <div *ngFor="let imageUrl of imageData.images3">
             <img style="width: 188px; padding-bottom: 20px;" [src]="imageUrl" alt="{{ imageData.name3 }}">
           </div>
@@ -126,7 +129,10 @@
       </div>
       
       <ng-template #invalidMessage>
-        <p style="color: rgb(255, 255, 255);">{{ imageData.message }}</p>
+        <!-- Improved visibility of the error message with enhanced styling -->
+        <p style="color: rgb(255, 255, 255); padding: 10px; border-radius: 8px;">
+          {{ imageData.message }}
+        </p>
       </ng-template>
 
       <a style="color: white; text-decoration: none;" href="https://preview-cms-a.brands.henkel.com/content/uac/ceresit-2019/com/en/products/tiling/tiling-grouts/flex-grouts/ceresit-ce-40.html"><p style="font-size: 10px;">{{ translations.VIEW_MORE }}</p></a>
