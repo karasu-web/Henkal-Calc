@@ -62,8 +62,7 @@ export class AppComponent {
     size6?: string,
     unit6?: string,
     isValid: boolean,
-    message?: string,
-    text?: string
+    message?: string
   } = { images: [], images2: [], images3: [], isValid: true };
 
   // This method fetches image URLs and updates imageData accordingly
@@ -110,48 +109,53 @@ export class AppComponent {
   getImageUrls(area: string, tile: string): any {
     const areaData = this.productImages[area];
     if (areaData && areaData[tile]) {
-        const tileData = areaData[tile];
-        if (tileData && Object.keys(tileData).length > 0 && typeof tileData === 'object' && !Array.isArray(tileData)) {
-            let result: any = {
-                name: tileData.name,
-                images: tileData.images1 || [],
-                size1: tileData.sizevalue,
-                unit1: tileData.unitvalue,
-                size2: tileData.size2value,
-                unit2: tileData.unit2value,
-                result: tileData.result,
-                text: tileData.text,
-                isValid: true
-            };
+      const tileData = areaData[tile];
+      if (tileData && typeof tileData === 'object' && !Array.isArray(tileData)) {
+        let result: any = {
+          name: tileData.name,
+          images: tileData.images1 || [],
+          size1: tileData.sizevalue,
+          unit1: tileData.unitvalue,
+          size2: tileData.size2value,
+          unit2: tileData.unit2value,
+          result: tileData.result,
+          isValid: true
+        };
 
-            // Extend result with second set of data if available
-            if (tileData.name2) {
-                result = { ...result,
-                    name2: tileData.name2,
-                    images2: tileData.images2 || [],
-                    size3: tileData.sizevalue3,
-                    unit3: tileData.unitvalue3,
-                    size4: tileData.size4value,
-                    unit4: tileData.unit4value,
-                    result2: tileData.result2,
-                    text: tileData.text
-                };
-            }
-
-            return result;
-        } else {
-            return { message: 'Nie zalecamy żadnego produktu do tego zastosowania', isValid: false };
+        // Extend result with second set of data if available
+        if (tileData.name2) {
+          result = { ...result,
+            name2: tileData.name2,
+            images2: tileData.images2 || [],
+            size3: tileData.sizevalue3,
+            unit3: tileData.unitvalue3,
+            size4: tileData.size4value,
+            unit4: tileData.unit4value,
+            result2: tileData.result2
+          };
         }
+
+        // Extend result with third set of data if available
+        if (tileData.name3) {
+          result = { ...result,
+            name3: tileData.name3,
+            images3: tileData.images3 || [],
+            size5: tileData.sizevalue4,
+            unit5: tileData.unitvalue4,
+            size6: tileData.size5value,
+            unit6: tileData.unit5value,
+            result3: tileData.result3
+          };
+        }
+
+        return result;
+      } else {
+        return { message: 'Invalid tile configuration', isValid: false };
+      }
     } else {
-        // Check if the category itself exists but has no products
-        if (areaData && !(tile in areaData)) {
-            return { message: 'No products suggested for this category', isValid: false };
-        }
-        // Default fallback if no data is available for the area or tile
-        return { images: ['path/to/default_image.jpg'], isValid: true };
+      return { images: ['path/to/default_image.jpg'], isValid: true };
     }
-}
-
+  }
 
   // This method translates tile types
   getTranslatedTile(tileTypeEnglish: string): string {
