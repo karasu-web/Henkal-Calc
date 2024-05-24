@@ -453,6 +453,7 @@
       "unit2": "NUMBER_OF_UNITS",
       "unit2value": "1",
       "images1": ["assets/p6.webp"],
+      "imageLink1": "https://dm.henkel-dam.com/is/image/henkel/Ceresit-CE40-5kg-Front-PL-ecommerce",
       "name2": "CERESIT CE 60",
       "result2": "value",
       "sizevalue3": "1kg",
@@ -460,13 +461,15 @@
       "size4value": "5kg",
       "unit4value": "1",
       "images2": ["assets/p4.webp"],
+      "imageLink2": "https://dm.henkel-dam.com/is/image/henkel/Ceresit-CE40-5kg-Front-PL-ecommerce",
       "name3": "CE 79 ULTRAEPOXY INDUSTRIAL",
       "result3": "value",
       "sizevalue4": "1kg",
       "unitvalue4": "1",
       "size5value": "5kg",
       "unit5value": "1",
-      "images3": ["assets/p5.webp"]
+      "images3": ["assets/p5.webp"],
+      "imageLink3": "https://dm.henkel-dam.com/is/image/henkel/Ceresit-CE40-5kg-Front-PL-ecommerce"
     },
     "Mosaic": {
       "name": "CERESIT CE 40 AQUASTATIC",
