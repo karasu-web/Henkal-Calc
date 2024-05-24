@@ -2,21 +2,20 @@
  "Bathrooms": {
   "Gres": {
     "name": "CERESIT CE 40 AQUASTATIC",
-    "result": "value",
     "sizevalue": "1kg",
     "unitvalue": "1",
-    "size2": "PACKAGING_SIZE",
     "size2value": "5kg",
-    "unit2": "NUMBER_OF_UNITS",
     "unit2value": "1",
     "images1": ["assets/p2.webp"],
+    "imageLink1": "https://dm.henkel-dam.com/is/image/henkel/Ceresit-CE40-5kg-Front-PL-ecommerce",
     "name2": "CERESIT CE 60 ",
     "result2": "value",
     "sizevalue3": "1kg",
     "unitvalue3": "1",
     "size4value": "5kg",
     "unit4value": "1",
-    "images2": ["assets/p4.webp"]
+    "images2": ["assets/p4.webp"],
+    "imageLink2": "https://dm.henkel-dam.com/is/image/henkel/Ceresit-CE40-5kg-Front-PL-ecommerce"
   },
   "Porcelain": {
     "name": "CERESIT CE 40 AQUASTATIC",
@@ -27,14 +26,16 @@
     "size2value": "5kg",
     "unit2": "NUMBER_OF_UNITS",
     "unit2value": "1",
-    "images1": ["assets/p2.webp"], 
+    "images1": ["assets/p2.webp"],
+    "imageLink1": "https://dm.henkel-dam.com/is/image/henkel/Ceresit-CE40-5kg-Front-PL-ecommerce", 
     "name2": "CERESIT CE 60 ",
     "result2": "value",
     "sizevalue3": "1kg",
     "unitvalue3": "1",
     "size4value": "5kg",
     "unit4value": "1",
-    "images2": ["assets/p4.webp"] 
+    "images2": ["assets/p4.webp"],
+    "imageLink2": "https://dm.henkel-dam.com/is/image/henkel/Ceresit-CE40-5kg-Front-PL-ecommerce"
   },
   "Earthenware": {
     "name": "CERESIT CE 40 AQUASTATIC",
@@ -46,6 +47,7 @@
     "unit2": "NUMBER_OF_UNITS",
     "unit2value": "1",
     "images1": ["assets/p2.webp"],
+    "imageLink1": "https://dm.henkel-dam.com/is/image/henkel/Ceresit-CE40-5kg-Front-PL-ecommerce", 
     "name2": "CERESIT CE 60",
     "result2": "value",
     "sizevalue3": "1kg",
@@ -53,13 +55,15 @@
     "size4value": "5kg",
     "unit4value": "1",
     "images2": ["assets/p4.webp"],
+    "imageLink2": "https://dm.henkel-dam.com/is/image/henkel/Ceresit-CE40-5kg-Front-PL-ecommerce", 
     "name3": "CERESIT CE 33 COMFORT",
     "result3": "value",
     "sizevalue4": "1kg",
     "unitvalue4": "1",
     "size5value": "5kg",
     "unit5value": "1",
-    "images3": ["assets/p1.webp"]
+    "images3": ["assets/p1.webp"],
+    "imageLink3": "https://dm.henkel-dam.com/is/image/henkel/Ceresit-CE40-5kg-Front-PL-ecommerce"
   },
   "Stoneware": {
     "name": "CERESIT CE 40 AQUASTATIC",
@@ -71,6 +75,7 @@
     "unit2": "NUMBER_OF_UNITS",
     "unit2value": "1",
     "images1": ["assets/p2.webp"],
+    "imageLink1": "https://dm.henkel-dam.com/is/image/henkel/Ceresit-CE40-5kg-Front-PL-ecommerce", 
     "name2": "CERESIT CE 60",
     "result2": "value",
     "sizevalue3": "1kg",
@@ -78,13 +83,15 @@
     "size4value": "5kg",
     "unit4value": "1",
     "images2": ["assets/p4.webp"],
+    "imageLink2": "https://dm.henkel-dam.com/is/image/henkel/Ceresit-CE40-5kg-Front-PL-ecommerce", 
     "name3": "CERESIT CE 33 COMFORT",
     "result3": "value",
     "sizevalue4": "1kg",
     "unitvalue4": "1",
     "size5value": "5kg",
     "unit5value": "1",
-    "images3": ["assets/p1.webp"]
+    "images3": ["assets/p1.webp"],
+    "imageLink3": "https://dm.henkel-dam.com/is/image/henkel/Ceresit-CE40-5kg-Front-PL-ecommerce"
   },
   "Natural stone": {
     "name": "CERESIT CE 40 AQUASTATIC",
@@ -96,13 +103,16 @@
     "unit2": "NUMBER_OF_UNITS",
     "unit2value": "1",
     "images1": ["assets/p2.webp"],
+    "imageLink1": "https://dm.henkel-dam.com/is/image/henkel/Ceresit-CE40-5kg-Front-PL-ecommerce", 
     "name2": "CERESIT CE 60",
     "result2": "value",
     "sizevalue3": "1kg",
     "unitvalue3": "1",
     "size4value": "5kg",
     "unit4value": "1",
-    "images2": ["assets/p4.webp"]
+    "images2": ["assets/p4.webp"],
+    "imageLink2": "https://dm.henkel-dam.com/is/image/henkel/Ceresit-CE40-5kg-Front-PL-ecommerce"
+
    
   },
   "Glass mosaics": {
@@ -115,6 +125,7 @@
     "unit2": "NUMBER_OF_UNITS",
     "unit2value": "1",
     "images1": ["assets/p6.webp"],
+    "imageLink1": "https://dm.henkel-dam.com/is/image/henkel/Ceresit-CE40-5kg-Front-PL-ecommerce", 
     "name2": "CE 79 ULTRAEPOXY INDUSTRIAL",
     "result2": "value",
     "sizevalue3": "1kg",
@@ -122,13 +133,15 @@
     "size4value": "5kg",
     "unit4value": "1",
     "images2": ["assets/p5.webp"],
+    "imageLink2": "https://dm.henkel-dam.com/is/image/henkel/Ceresit-CE40-5kg-Front-PL-ecommerce", 
     "name3": "CERESIT CE 60",
     "result3": "value",
     "sizevalue4": "1kg",
     "unitvalue4": "1",
     "size5value": "5kg",
     "unit5value": "1",
-    "images3": ["assets/p4.webp"]
+    "images3": ["assets/p4.webp"],
+    "imageLink3": "https://dm.henkel-dam.com/is/image/henkel/Ceresit-CE40-5kg-Front-PL-ecommerce" 
   },
   "Mosaic": {
     "name": "CERESIT CE 40 AQUASTATIC",
@@ -140,13 +153,15 @@
     "unit2": "NUMBER_OF_UNITS",
     "unit2value": "1",
     "images1": ["assets/p2.webp"],
+    "imageLink1": "https://dm.henkel-dam.com/is/image/henkel/Ceresit-CE40-5kg-Front-PL-ecommerce", 
     "name2": "CERESIT CE 60 ",
     "result2": "value",
     "sizevalue3": "1kg",
     "unitvalue3": "1",
     "size4value": "5kg",
     "unit4value": "1",
-    "images2": ["assets/p4.webp"]
+    "images2": ["assets/p4.webp"],
+    "imageLink2": "https://dm.henkel-dam.com/is/image/henkel/Ceresit-CE40-5kg-Front-PL-ecommerce" 
   }
   },
 
@@ -163,13 +178,15 @@
       "unit2": "NUMBER_OF_UNITS",
       "unit2value": "1",
       "images1": ["assets/p2.webp"],
+      "imageLink1": "https://dm.henkel-dam.com/is/image/henkel/Ceresit-CE40-5kg-Front-PL-ecommerce",
       "name2": "CERESIT CE 60 ",
       "result2": "value",
       "sizevalue3": "1kg",
       "unitvalue3": "1",
       "size4value": "5kg",
       "unit4value": "1",
-      "images2": ["assets/p4.webp"]
+      "images2": ["assets/p4.webp"],
+      "imageLink2": "https://dm.henkel-dam.com/is/image/henkel/Ceresit-CE40-5kg-Front-PL-ecommerce"
     },
     "Porcelain": {
       "name": "CERESIT CE 40 AQUASTATIC",
@@ -181,13 +198,15 @@
       "unit2": "NUMBER_OF_UNITS",
       "unit2value": "1",
       "images1": ["assets/p2.webp"], 
+      "imageLink1": "#",
       "name2": "CERESIT CE 60 ",
       "result2": "value",
       "sizevalue3": "1kg",
       "unitvalue3": "1",
       "size4value": "5kg",
       "unit4value": "1",
-      "images2": ["assets/p4.webp"] 
+      "images2": ["assets/p4.webp"],
+      "imageLink2": "#" 
     },
     "Earthenware": {
       "name": "CERESIT CE 40 AQUASTATIC",
@@ -199,6 +218,7 @@
       "unit2": "NUMBER_OF_UNITS",
       "unit2value": "1",
       "images1": ["assets/p2.webp"],
+      "imageLink1": "#",
       "name2": "CERESIT CE 60",
       "result2": "value",
       "sizevalue3": "1kg",
@@ -206,13 +226,15 @@
       "size4value": "5kg",
       "unit4value": "1",
       "images2": ["assets/p4.webp"],
+      "imageLink2": "#",
       "name3": "CERESIT CE 33 COMFORT",
       "result3": "value",
       "sizevalue4": "1kg",
       "unitvalue4": "1",
       "size5value": "5kg",
       "unit5value": "1",
-      "images3": ["assets/p1.webp"]
+      "images3": ["assets/p1.webp"],
+      "imageLink3": "#"
     },
     "Stoneware": {
       "name": "CERESIT CE 40 AQUASTATIC",
@@ -224,6 +246,7 @@
       "unit2": "NUMBER_OF_UNITS",
       "unit2value": "1",
       "images1": ["assets/p2.webp"],
+      "imageLink1": "#",
       "name2": "CERESIT CE 60",
       "result2": "value",
       "sizevalue3": "1kg",
@@ -231,13 +254,15 @@
       "size4value": "5kg",
       "unit4value": "1",
       "images2": ["assets/p4.webp"],
+      "imageLink2": "#",
       "name3": "CERESIT CE 33 COMFORT",
       "result3": "value",
       "sizevalue4": "1kg",
       "unitvalue4": "1",
       "size5value": "5kg",
       "unit5value": "1",
-      "images3": ["assets/p1.webp"]
+      "images3": ["assets/p1.webp"],
+      "imageLink3": "#"
     },
     "Natural stone": {
       "name": "CERESIT CE 40 AQUASTATIC",
@@ -249,13 +274,15 @@
       "unit2": "NUMBER_OF_UNITS",
       "unit2value": "1",
       "images1": ["assets/p2.webp"],
+      "imageLink1": "#",
       "name2": "CERESIT CE 60",
       "result2": "value",
       "sizevalue3": "1kg",
       "unitvalue3": "1",
       "size4value": "5kg",
       "unit4value": "1",
-      "images2": ["assets/p4.webp"]
+      "images2": ["assets/p4.webp"],
+      "imageLink2": "#"
      
     },
     "Glass mosaics": {
@@ -268,16 +295,18 @@
       "unit2": "NUMBER_OF_UNITS",
       "unit2value": "1",
       "images1": ["assets/p6.webp"],
+      "imageLink1": "https://dm.henkel-dam.com/is/image/henkel/Ceresit-CE40-5kg-Front-PL-ecommerce",
       "name2": "CERESIT CE 60",
       "result2": "value",
       "sizevalue3": "1kg",
       "unitvalue3": "1",
       "size4value": "5kg",
       "unit4value": "1",
-      "images2": ["assets/p4.webp"]
+      "images2": ["assets/p4.webp"],
+      "imageLink2": "https://dm.henkel-dam.com/is/image/henkel/Ceresit-CE40-5kg-Front-PL-ecommerce"
     },
     "Mosaic": {
-      "name": "CE 89 ULTRAEPOXY PREMIUM",
+      "name": "CERESIT CE 40 AQUASTATIC",
       "result": "value",
       "sizevalue": "1kg",
       "unitvalue": "1",
@@ -285,14 +314,16 @@
       "size2value": "5kg",
       "unit2": "NUMBER_OF_UNITS",
       "unit2value": "1",
-      "images1": ["assets/p6.webp"],
+      "images1": ["assets/p2.webp"],
+      "imageLink1": "https://dm.henkel-dam.com/is/image/henkel/Ceresit-CE40-5kg-Front-PL-ecommerce",
       "name2": "CERESIT CE 60",
       "result2": "value",
       "sizevalue3": "1kg",
       "unitvalue3": "1",
       "size4value": "5kg",
       "unit4value": "1",
-      "images2": ["assets/p4.webp"]
+      "images2": ["assets/p4.webp"],
+      "imageLink2": "https://dm.henkel-dam.com/is/image/henkel/Ceresit-CE40-5kg-Front-PL-ecommerce"
     }
   },
   "Living rooms": {
@@ -306,13 +337,15 @@
       "unit2": "NUMBER_OF_UNITS",
       "unit2value": "1",
       "images1": ["assets/p2.webp"],
+      "imageLink1": "https://dm.henkel-dam.com/is/image/henkel/Ceresit-CE40-5kg-Front-PL-ecommerce",
       "name2": "CERESIT CE 60 ",
       "result2": "value",
       "sizevalue3": "1kg",
       "unitvalue3": "1",
       "size4value": "5kg",
       "unit4value": "1",
-      "images2": ["assets/p4.webp"]
+      "images2": ["assets/p4.webp"],
+      "imageLink2": "https://dm.henkel-dam.com/is/image/henkel/Ceresit-CE40-5kg-Front-PL-ecommerce"
     },
     "Porcelain": {
       "name": "CERESIT CE 40 AQUASTATIC",
@@ -323,14 +356,16 @@
       "size2value": "5kg",
       "unit2": "NUMBER_OF_UNITS",
       "unit2value": "1",
-      "images1": ["assets/p2.webp"], 
+      "images1": ["assets/p2.webp"],
+      "imageLink1": "https://dm.henkel-dam.com/is/image/henkel/Ceresit-CE40-5kg-Front-PL-ecommerce", 
       "name2": "CERESIT CE 60 ",
       "result2": "value",
       "sizevalue3": "1kg",
       "unitvalue3": "1",
       "size4value": "5kg",
       "unit4value": "1",
-      "images2": ["assets/p4.webp"] 
+      "images2": ["assets/p4.webp"],
+      "imageLink2": "https://dm.henkel-dam.com/is/image/henkel/Ceresit-CE40-5kg-Front-PL-ecommerce"
     },
     "Earthenware": {
       "name": "CERESIT CE 40 AQUASTATIC",
@@ -342,6 +377,7 @@
       "unit2": "NUMBER_OF_UNITS",
       "unit2value": "1",
       "images1": ["assets/p2.webp"],
+      "imageLink1": "https://dm.henkel-dam.com/is/image/henkel/Ceresit-CE40-5kg-Front-PL-ecommerce",
       "name2": "CERESIT CE 60",
       "result2": "value",
       "sizevalue3": "1kg",
@@ -349,13 +385,15 @@
       "size4value": "5kg",
       "unit4value": "1",
       "images2": ["assets/p4.webp"],
+      "imageLink2": "https://dm.henkel-dam.com/is/image/henkel/Ceresit-CE40-5kg-Front-PL-ecommerce",
       "name3": "CERESIT CE 33 COMFORT",
       "result3": "value",
       "sizevalue4": "1kg",
       "unitvalue4": "1",
       "size5value": "5kg",
       "unit5value": "1",
-      "images3": ["assets/p1.webp"]
+      "images3": ["assets/p1.webp"],
+      "imageLink3": "https://dm.henkel-dam.com/is/image/henkel/Ceresit-CE40-5kg-Front-PL-ecommerce"
     },
     "Stoneware": {
       "name": "CERESIT CE 40 AQUASTATIC",
@@ -367,6 +405,7 @@
       "unit2": "NUMBER_OF_UNITS",
       "unit2value": "1",
       "images1": ["assets/p2.webp"],
+      "imageLink1": "https://dm.henkel-dam.com/is/image/henkel/Ceresit-CE40-5kg-Front-PL-ecommerce",
       "name2": "CERESIT CE 60",
       "result2": "value",
       "sizevalue3": "1kg",
@@ -374,13 +413,15 @@
       "size4value": "5kg",
       "unit4value": "1",
       "images2": ["assets/p4.webp"],
+      "imageLink2": "https://dm.henkel-dam.com/is/image/henkel/Ceresit-CE40-5kg-Front-PL-ecommerce",
       "name3": "CERESIT CE 33 COMFORT",
       "result3": "value",
       "sizevalue4": "1kg",
       "unitvalue4": "1",
       "size5value": "5kg",
       "unit5value": "1",
-      "images3": ["assets/p1.webp"]
+      "images3": ["assets/p1.webp"],
+      "imageLink3": "https://dm.henkel-dam.com/is/image/henkel/Ceresit-CE40-5kg-Front-PL-ecommerce"
     },
     "Natural stone": {
       "name": "CERESIT CE 40 AQUASTATIC",
@@ -392,13 +433,15 @@
       "unit2": "NUMBER_OF_UNITS",
       "unit2value": "1",
       "images1": ["assets/p2.webp"],
+      "imageLink2": "https://dm.henkel-dam.com/is/image/henkel/Ceresit-CE40-5kg-Front-PL-ecommerce",
       "name2": "CERESIT CE 60",
       "result2": "value",
       "sizevalue3": "1kg",
       "unitvalue3": "1",
       "size4value": "5kg",
       "unit4value": "1",
-      "images2": ["assets/p4.webp"]
+      "images2": ["assets/p4.webp"],
+      "imageLink1": "https://dm.henkel-dam.com/is/image/henkel/Ceresit-CE40-5kg-Front-PL-ecommerce"
     },
     "Glass mosaics": {
       "name": "CE 89 ULTRAEPOXY PREMIUM",
@@ -852,6 +895,93 @@
       
     }
   },
+
+  "Industrial areas": {
+    "Gres": {
+      "name": "CE 89 ULTRAEPOXY PREMIUM",
+      "result": "value",
+      "sizevalue": "1kg",
+      "unitvalue": "1",
+      "size2": "PACKAGING_SIZE",
+      "size2value": "5kg",
+      "unit2": "NUMBER_OF_UNITS",
+      "unit2value": "1",
+      "images1": ["assets/p6.webp"],
+      "name2": "CE 79 ULTRAEPOXY INDUSTRIAL",
+      "result2": "value",
+      "sizevalue3": "1kg",
+      "unitvalue3": "1",
+      "size4value": "5kg",
+      "unit4value": "1",
+      "images2": ["assets/p5.webp"]
+    },
+    "Porcelain": {
+      "name": "CE 89 ULTRAEPOXY PREMIUM",
+      "result": "value",
+      "sizevalue": "1kg",
+      "unitvalue": "1",
+      "size2": "PACKAGING_SIZE",
+      "size2value": "5kg",
+      "unit2": "NUMBER_OF_UNITS",
+      "unit2value": "1",
+      "images1": ["assets/p6.webp"],
+      "name2": "CE 79 ULTRAEPOXY INDUSTRIAL",
+      "result2": "value",
+      "sizevalue3": "1kg",
+      "unitvalue3": "1",
+      "size4value": "5kg",
+      "unit4value": "1",
+      "images2": ["assets/p5.webp"]
+    },
+    "Earthenware": {
+      
+    },
+    "Stoneware": {
+      
+    },
+    "Natural stone": {
+      "name": "CE 89 ULTRAEPOXY PREMIUM",
+      "result": "value",
+      "sizevalue": "1kg",
+      "unitvalue": "1",
+      "size2": "PACKAGING_SIZE",
+      "size2value": "5kg",
+      "unit2": "NUMBER_OF_UNITS",
+      "unit2value": "1",
+      "images1": ["assets/p6.webp"],
+      "name2": "CE 79 ULTRAEPOXY INDUSTRIAL",
+      "result2": "value",
+      "sizevalue3": "1kg",
+      "unitvalue3": "1",
+      "size4value": "5kg",
+      "unit4value": "1",
+      "images2": ["assets/p5.webp"]
+      
+    },
+    "Glass mosaics": {
+     
+    },
+    "Mosaic": {
+      "name": "CE 89 ULTRAEPOXY PREMIUM",
+      "result": "value",
+      "sizevalue": "1kg",
+      "unitvalue": "1",
+      "size2": "PACKAGING_SIZE",
+      "size2value": "5kg",
+      "unit2": "NUMBER_OF_UNITS",
+      "unit2value": "1",
+      "images1": ["assets/p6.webp"],
+      "name2": "CE 79 ULTRAEPOXY INDUSTRIAL",
+      "result2": "value",
+      "sizevalue3": "1kg",
+      "unitvalue3": "1",
+      "size4value": "5kg",
+      "unit4value": "1",
+      "images2": ["assets/p5.webp"]
+    }
+  },
+
+
   "Spas, hammams (incl public areas)": {
     "Gres": {
       "name": "CE 89 ULTRAEPOXY PREMIUM",

@@ -15,6 +15,7 @@
           <option value="Pools">{{ translations.POOLS }}</option>
           <option value="Balconies/Terraces">{{ translations.BALCONIES_TERRACES }}</option>
           <option value="Heavy Traffic Area">{{ translations.HEAVY_TRAFFIC_AREA }}</option>
+          <option value="Industrial areas">{{ translations.INDUSTRIAL_AREA }}</option>
           <option value="Spas, hammams (incl public areas)">{{ translations.SPAS_HAMMAMS }}</option>
         </select>
 
@@ -73,7 +74,7 @@
       <span style="margin-bottom: 15px;" class="horizontal-line"></span>
 
       <div *ngIf="imageData.isValid; else invalidMessage">
-        <div *ngIf="imageData.name">
+        <div style="margin-bottom: 15px;" *ngIf="imageData.name">
           <h3>{{ imageData.name }}</h3>
           <p style="font-size: 12px;">{{ translations.PRODUCT_QUANTITY_NEEDED }}</p>
           <p style="font-weight: bold; margin-bottom: 15px;">{{ result }} Kg</p>
@@ -84,47 +85,50 @@
           <p style="font-size: 12px;">{{ translations.PACKAGING_SIZE }}</p>
           <p style="font-weight: bold;">{{ imageData.size2 }}</p>
           <p style="font-size: 12px;">{{ translations.NUMBER_OF_UNITS }}</p>
-          <p style="font-weight: bold;">{{ imageData.unit2 }}</p>
-          
+          <p style="font-weight: bold;  margin-bottom: 10px;">{{ imageData.unit2 }}</p>
+      
           <div *ngFor="let imageUrl of imageData.images">
-            <img style="width: 188px; padding-bottom: 20px;" [src]="imageUrl" alt="{{ imageData.name }}">
+            <img style="width: 188px; " [src]="imageUrl" alt="{{ imageData.name }}">
           </div>
+          <a style="text-decoration: none; color: white; font-size: 10px; margin-bottom: 10px;" *ngIf="imageData.imageLink" [href]="imageData.imageLink" target="_blank">Zobacz więcej</a>
         </div>
       
-        <div *ngIf="imageData.name2">
+        <div style="margin-bottom: 15px;" *ngIf="imageData.name2">
           <h3>{{ imageData.name2 }}</h3>
           <p style="font-size: 12px;">{{ translations.PRODUCT_QUANTITY_NEEDED }}</p>
           <p style="font-weight: bold; margin-bottom: 15px;">{{ result }} Kg</p>
           <p style="font-size: 12px;">{{ translations.PACKAGING_SIZE }}</p>
-          <p style="font-weight: bold;">{{ imageData.size3 }}</p>
+          <p style="font-weight: bold; margin-bottom: 10px;">{{ imageData.size3 }}</p>
           <p style="font-size: 12px;">{{ translations.NUMBER_OF_UNITS }}</p>
-          <p style="font-weight: bold;">{{ imageData.unit3 }}</p>
+          <p style="font-weight: bold;  margin-bottom: 10px;">{{ imageData.unit3 }}</p>
           <p style="font-size: 12px;">{{ translations.PACKAGING_SIZE }}</p>
-          <p style="font-weight: bold;">{{ imageData.size4 }}</p>
+          <p style="font-weight: bold;  margin-bottom: 10px;">{{ imageData.size4 }}</p>
           <p style="font-size: 12px;">{{ translations.NUMBER_OF_UNITS }}</p>
-          <p style="font-weight: bold;">{{ imageData.unit4 }}</p>
-          
+          <p style="font-weight: bold;   margin-bottom: 10px;">{{ imageData.unit4 }}</p>
+      
           <div *ngFor="let imageUrl of imageData.images2">
-            <img style="width: 188px; padding-bottom: 20px;" [src]="imageUrl" alt="{{ imageData.name2 }}">
+            <img style="width: 188px; " [src]="imageUrl" alt="{{ imageData.name2 }}">
           </div>
+          <a style="text-decoration: none; color: white; font-size: 10px; padding-bottom: 20px;" *ngIf="imageData.imageLink2" [href]="imageData.imageLink2" target="_blank">Zobacz więcej</a>
         </div>
       
         <div *ngIf="imageData.name3">
           <h3>{{ imageData.name3 }}</h3>
           <p style="font-size: 12px;">{{ translations.PRODUCT_QUANTITY_NEEDED }}</p>
           <p style="font-weight: bold; margin-bottom: 15px;">{{ result }} Kg</p>
-          <p style="font-size: 12px;">{{ translations.PACKAGING_SIZE }}</p>
-          <p style="font-weight: bold;">{{ imageData.size5 }}</p>
+          <p style="font-size: 12px; ">{{ translations.PACKAGING_SIZE }}</p>
+          <p style="font-weight: bold;  margin-bottom: 10px;">{{ imageData.size5 }}</p>
           <p style="font-size: 12px;">{{ translations.NUMBER_OF_UNITS }}</p>
-          <p style="font-weight: bold;">{{ imageData.unit5 }}</p>
+          <p style="font-weight: bold;  margin-bottom: 10px;">{{ imageData.unit5 }}</p>
           <p style="font-size: 12px;">{{ translations.PACKAGING_SIZE }}</p>
-          <p style="font-weight: bold;">{{ imageData.size6 }}</p>
+          <p style="font-weight: bold;  margin-bottom: 10px;">{{ imageData.size6 }}</p>
           <p style="font-size: 12px;">{{ translations.NUMBER_OF_UNITS }}</p>
-          <p style="font-weight: bold;">{{ imageData.unit6 }}</p>
-          
+          <p style="font-weight: bold;  margin-bottom: 10px;">{{ imageData.unit6 }}</p>
+      
           <div *ngFor="let imageUrl of imageData.images3">
-            <img style="width: 188px; padding-bottom: 20px;" [src]="imageUrl" alt="{{ imageData.name3 }}">
+            <img style="width: 188px; " [src]="imageUrl" alt="{{ imageData.name3 }}">
           </div>
+          <a style="text-decoration: none; color: white; font-size: 10px; padding-bottom: 20px;" *ngIf="imageData.imageLink3" [href]="imageData.imageLink3" target="_blank">Zobacz więcej</a>
         </div>
       </div>
       
@@ -135,7 +139,7 @@
         </p>
       </ng-template>
 
-      <a style="color: white; text-decoration: none;" href="https://preview-cms-a.brands.henkel.com/content/uac/ceresit-2019/com/en/products/tiling/tiling-grouts/flex-grouts/ceresit-ce-40.html"><p style="font-size: 10px;">{{ translations.VIEW_MORE }}</p></a>
+     
 
       <span style="margin-bottom: 8px;" class="horizontal-line"></span>
 

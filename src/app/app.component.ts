@@ -42,6 +42,7 @@ export class AppComponent {
   imageData: {
     name?: string,
     images: string[],
+    imageLink?: string,  
     result?: string,
     size1?: string,
     unit1?: string,
@@ -49,6 +50,7 @@ export class AppComponent {
     unit2?: string,
     name2?: string,
     images2?: string[],
+    imageLink2?: string,  
     result2?: string,
     size3?: string,
     unit3?: string,
@@ -56,6 +58,7 @@ export class AppComponent {
     unit4?: string,
     name3?: string,
     images3?: string[],
+    imageLink3?: string,  
     result3?: string,
     size5?: string,
     unit5?: string,
@@ -64,6 +67,7 @@ export class AppComponent {
     isValid: boolean,
     message?: string
   } = { images: [], images2: [], images3: [], isValid: true };
+  
 
   // This method fetches image URLs and updates imageData accordingly
   updateSelection(area: string, tile: string) {
@@ -114,6 +118,7 @@ export class AppComponent {
             let result: any = {
                 name: tileData.name,
                 images: tileData.images1 || [],
+                imageLink: tileData.imageLink1 || '',
                 size1: tileData.sizevalue,
                 unit1: tileData.unitvalue,
                 size2: tileData.size2value,
@@ -127,6 +132,7 @@ export class AppComponent {
                 result = { ...result,
                     name2: tileData.name2,
                     images2: tileData.images2 || [],
+                    imageLink2: tileData.imageLink2 || '',
                     size3: tileData.sizevalue3,
                     unit3: tileData.unitvalue3,
                     size4: tileData.size4value,
@@ -138,6 +144,7 @@ export class AppComponent {
               result = { ...result,
                 name3: tileData.name3,
                 images3: tileData.images3 || [],
+                imageLink3: tileData.imageLink1 || '',
                 size5: tileData.sizevalue4,
                 unit5: tileData.unitvalue4,
                 size6: tileData.size5value,
