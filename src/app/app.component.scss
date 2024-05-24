@@ -232,8 +232,14 @@ h3.child-title {
 }
 
 .mobile-button {
-  display: block; // Show the button only on mobile screens
-  background: #E20F0F;
+  display: none; /* default state is hidden */
+}
+
+
+@media (max-width: 600px) {
+  .mobile-button {
+    display: block; /* Show the button on small screens */
+    background: #E20F0F;
     color: white;
     border: 3px solid transparent; /* Add transparent border by default */
     padding: 4px 25px;
@@ -241,9 +247,11 @@ h3.child-title {
     font-weight: 900;
     font-size: 16px;
     border-radius: 30px;
-    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.3019607843);
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.3);
     transition: background 0.5s, color 0.5s, border-color 0.5s;
     margin-top: 20px;
+    margin-bottom: 10px;
+  }
 }
 
 .download{

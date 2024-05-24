@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
@@ -67,7 +67,16 @@ export class AppComponent {
     isValid: boolean,
     message?: string
   } = { images: [], images2: [], images3: [], isValid: true };
-  
+
+  // Constants
+  density: number = 1.8;
+
+  isCalculating: boolean = false;
+  isResultDisplayed: boolean = false;
+  isLeftDivVisible: boolean = true; // Track visibility of the left div
+  result: number = 0;
+
+  constructor(private elementRef: ElementRef) {}
 
   // This method fetches image URLs and updates imageData accordingly
   updateSelection(area: string, tile: string) {
@@ -80,18 +89,11 @@ export class AppComponent {
     }
   }
 
-  // Constants
-  density: number = 1.8;
-
   // This method updates the slider value
   updateValue(event: Event) {
     const inputElement = event.target as HTMLInputElement;
     this.sliderValue = parseInt(inputElement.value, 10);
   }
-
-  isCalculating: boolean = false;
-  isResultDisplayed: boolean = false;
-  result: number = 0;
 
   // This method is triggered when the Calculate button is pressed
   toggleCalculate() {
@@ -100,6 +102,12 @@ export class AppComponent {
     this.updateSelection(this.selectedarea, this.selectedtile); // Update imageData after the calculation
     this.isResultDisplayed = true; // Show the right div when the calculation is performed
     this.prevSelectedTile = this.selectedtile; // Save the previously selected tile for display
+    
+    const screenWidth = window.innerWidth;
+    if (screenWidth <= 768) { // Only execute for mobile screens
+      this.isLeftDivVisible = false; // Hide the left div
+      this.toggleLeftDivForMobile();
+    }
   }
 
   // This method calculates the result based on the provided formula
@@ -113,60 +121,59 @@ export class AppComponent {
   getImageUrls(area: string, tile: string): any {
     const areaData = this.productImages[area];
     if (areaData && areaData[tile]) {
-        const tileData = areaData[tile];
-        if (tileData && Object.keys(tileData).length > 0 && typeof tileData === 'object' && !Array.isArray(tileData)) {
-            let result: any = {
-                name: tileData.name,
-                images: tileData.images1 || [],
-                imageLink: tileData.imageLink1 || '',
-                size1: tileData.sizevalue,
-                unit1: tileData.unitvalue,
-                size2: tileData.size2value,
-                unit2: tileData.unit2value,
-                result: tileData.result,
-                isValid: true
-            };
+      const tileData = areaData[tile];
+      if (tileData && Object.keys(tileData).length > 0 && typeof tileData === 'object' && !Array.isArray(tileData)) {
+        let result: any = {
+          name: tileData.name,
+          images: tileData.images1 || [],
+          imageLink: tileData.imageLink1 || '',
+          size1: tileData.sizevalue,
+          unit1: tileData.unitvalue,
+          size2: tileData.size2value,
+          unit2: tileData.unit2value,
+          result: tileData.result,
+          isValid: true
+        };
 
-            // Extend result with second set of data if available
-            if (tileData.name2) {
-                result = { ...result,
-                    name2: tileData.name2,
-                    images2: tileData.images2 || [],
-                    imageLink2: tileData.imageLink2 || '',
-                    size3: tileData.sizevalue3,
-                    unit3: tileData.unitvalue3,
-                    size4: tileData.size4value,
-                    unit4: tileData.unit4value,
-                    result2: tileData.result2
-                };
-            }
-            if (tileData.name3) {
-              result = { ...result,
-                name3: tileData.name3,
-                images3: tileData.images3 || [],
-                imageLink3: tileData.imageLink1 || '',
-                size5: tileData.sizevalue4,
-                unit5: tileData.unitvalue4,
-                size6: tileData.size5value,
-                unit6: tileData.unit5value,
-                result3: tileData.result3
-              };
-            }
-
-            return result;
-        } else {
-            return { message: 'Nie zalecamy żadnego produktu do tego zastosowania', isValid: false };
+        // Extend result with second set of data if available
+        if (tileData.name2) {
+          result = { ...result,
+            name2: tileData.name2,
+            images2: tileData.images2 || [],
+            imageLink2: tileData.imageLink2 || '',
+            size3: tileData.sizevalue3,
+            unit3: tileData.unitvalue3,
+            size4: tileData.size4value,
+            unit4: tileData.unit4value,
+            result2: tileData.result2
+          };
         }
+        if (tileData.name3) {
+          result = { ...result,
+            name3: tileData.name3,
+            images3: tileData.images3 || [],
+            imageLink3: tileData.imageLink1 || '',
+            size5: tileData.sizevalue4,
+            unit5: tileData.unitvalue4,
+            size6: tileData.size5value,
+            unit6: tileData.unit5value,
+            result3: tileData.result3
+          };
+        }
+
+        return result;
+      } else {
+        return { message: 'Nie zalecamy żadnego produktu do tego zastosowania', isValid: false };
+      }
     } else {
-        // Check if the category itself exists but has no products
-        if (areaData && !(tile in areaData)) {
-            return { message: 'No products suggested for this category', isValid: false };
-        }
-        // Default fallback if no data is available for the area or tile
-        return { images: ['path/to/default_image.jpg'], isValid: true };
+      // Check if the category itself exists but has no products
+      if (areaData && !(tile in areaData)) {
+        return { message: 'No products suggested for this category', isValid: false };
+      }
+      // Default fallback if no data is available for the area or tile
+      return { images: ['path/to/default_image.jpg'], isValid: true };
     }
-}
-
+  }
 
   // This method translates tile types
   getTranslatedTile(tileTypeEnglish: string): string {
@@ -179,6 +186,30 @@ export class AppComponent {
       case 'Glass mosaics': return this.translations.GLASS_MOSAICS;
       case 'Mosaic': return this.translations.MOSAIC;
       default: return tileTypeEnglish;
+    }
+  }
+
+  // Method to check if the screen is a mobile screen
+  isMobileScreen(): boolean {
+    return window.innerWidth <= 768;
+  }
+
+  // This method toggles the visibility of the left div on mobile screens
+  toggleLeftDivForMobile() {
+    const leftDiv = this.elementRef.nativeElement.querySelector('.left');
+    if (this.isLeftDivVisible) {
+      leftDiv.style.display = 'block'; // Show the left div if isLeftDivVisible is true
+    } else {
+      leftDiv.style.display = 'none'; // Hide the left div if isLeftDivVisible is false
+    }
+  }
+
+  // This method toggles the visibility of the left and right divs on mobile screens
+  toggleLeftAndRightDivs() {
+    if (this.isMobileScreen()) {
+      this.isLeftDivVisible = true; // Ensure the left div is visible
+      this.isResultDisplayed = false; // Hide the right div
+      this.toggleLeftDivForMobile(); // Toggle the left div visibility
     }
   }
 }
