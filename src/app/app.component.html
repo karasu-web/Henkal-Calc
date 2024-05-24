@@ -131,6 +131,9 @@
           <a style="text-decoration: none; color: white; font-size: 10px; padding-bottom: 20px;" *ngIf="imageData.imageLink3" [href]="imageData.imageLink3" target="_blank">Zobacz więcej</a>
         </div>
       </div>
+
+      <button *ngIf="isMobileScreen()" class="mobile-button" (click)="toggleLeftAndRightDivs()">Recalculate</button>
+
       
       <ng-template #invalidMessage>
         <!-- Improved visibility of the error message with enhanced styling -->
