@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container"   >
   <h1 class="heading">{{ translations.TILE_GROUT_FINDER_AND_CALCULATOR }}</h1>
 
   <div class="parent" style="display: flex; justify-content: center;">
@@ -132,7 +132,7 @@
         </div>
       </div>
 
-      <button *ngIf="isMobileScreen()" class="mobile-button" (click)="toggleLeftAndRightDivs()">Recalculate</button>
+      <button *ngIf="isMobileScreen()" class="mobile-button" (click)="toggleLeftAndRightDivs()">Przelicz</button>
 
       
       <ng-template #invalidMessage>
@@ -146,7 +146,12 @@
 
       <span style="margin-bottom: 8px;" class="horizontal-line"></span>
 
-      <p style="font-size: 12px; text-align: center; margin-right:55px">{{ translations.DOWNLOAD_A_REPORT }}</p>
+      <button (click)="captureScreen()" style="padding-top:10px; font-size: 12px; cursor: pointer; background: none;
+      border: none;
+      color: white;
+      padding-bottom: 20px;">
+        {{ translations.DOWNLOAD_A_REPORT }}
+      </button>
     </div>
   </div>
 </div>
