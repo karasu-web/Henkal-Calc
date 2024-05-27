@@ -177,7 +177,7 @@ export class AppComponent {
     }
   }
 
-  // This method translates tile types
+  
   getTranslatedTile(tileTypeEnglish: string): string {
     switch (tileTypeEnglish) {
       case 'Gres': return this.translations.GRES;
