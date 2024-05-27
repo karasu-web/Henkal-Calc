@@ -8,6 +8,8 @@ import { MatSliderModule } from '@angular/material/slider';
 import { CommonModule } from '@angular/common';
 import * as translations from '../assets/pl.json';
 import * as productImages from '../assets/PI.json';
+import html2canvas from 'html2canvas';
+
 
 @Component({
   selector: 'app-root',
@@ -212,4 +214,21 @@ export class AppComponent {
       this.toggleLeftDivForMobile(); // Toggle the left div visibility
     }
   }
+
+  captureScreen() {
+    if (document.body) { // Check if document.body is not null
+      html2canvas(document.body).then(canvas => {
+        const imageDataUrl = canvas.toDataURL('image/png');
+        const downloadLink = document.createElement('a');
+        downloadLink.href = imageDataUrl;
+        downloadLink.download = 'captured-screenshot.png';
+        document.body.appendChild(downloadLink);
+        downloadLink.click();
+        document.body.removeChild(downloadLink);
+      });
+    } else {
+      console.error("Document body is not available");
+    }
+  }
+  
 }
