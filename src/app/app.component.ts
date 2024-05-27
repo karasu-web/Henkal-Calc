@@ -71,12 +71,14 @@ export class AppComponent {
   } = { images: [], images2: [], images3: [], isValid: true };
 
   // Constants
-  density: number = 1.8;
+  density1: number = 1.8;
+  density2: number = 1.55;
 
   isCalculating: boolean = false;
   isResultDisplayed: boolean = false;
   isLeftDivVisible: boolean = true; // Track visibility of the left div
-  result: number = 0;
+  result1: number = 0; // Result using density1
+  result2: number = 0; // Result using density2
 
   constructor(private elementRef: ElementRef) {}
 
@@ -100,10 +102,12 @@ export class AppComponent {
   // This method is triggered when the Calculate button is pressed
   toggleCalculate() {
     this.isCalculating = true;
-    this.calculateResult();  // Perform the calculation first
+    // this.calculateResult();  // Perform the calculation first
     this.updateSelection(this.selectedarea, this.selectedtile); // Update imageData after the calculation
     this.isResultDisplayed = true; // Show the right div when the calculation is performed
     this.prevSelectedTile = this.selectedtile; // Save the previously selected tile for display
+    this.calculateResultDensity1();  // Using density1
+    this.calculateResultDensity2();  // Using density2
     
     const screenWidth = window.innerWidth;
     if (screenWidth <= 768) { // Only execute for mobile screens
@@ -113,10 +117,16 @@ export class AppComponent {
   }
 
   // This method calculates the result based on the provided formula
-  calculateResult() {
+  calculateResultDensity1() {
     const LG = (100 / this.tileHeight + 100 / this.tileWidth) * 100;
-    const rawResult = this.density * ((this.tileJoint * this.tileThickness * this.sliderValue * LG) * 0.001) / 100;
-    this.result = parseFloat(rawResult.toFixed(2));
+    const rawResult = this.density1 * ((this.tileJoint * this.tileThickness * this.sliderValue * LG) * 0.001) / 100;
+    this.result1 = parseFloat(rawResult.toFixed(2));
+  }
+
+  calculateResultDensity2() {
+    const LG = (100 / this.tileHeight + 100 / this.tileWidth) * 100;
+    const rawResult = this.density2 * ((this.tileJoint * this.tileThickness * this.sliderValue * LG) * 0.001) / 100;
+    this.result2 = parseFloat(rawResult.toFixed(2));
   }
 
   // This method fetches image URLs for a given area and tile type
