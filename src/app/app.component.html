@@ -20,7 +20,7 @@
         </select>
 
         <h3 class="child-title" style="margin-top: 15px;">{{ translations.TILE_TYPE }}</h3>
-        <select class="dropdown" style="margin-bottom: 15px;" [(ngModel)]="selectedtile">
+        <select class="dropdown" style="margin-bottom: 40px;" [(ngModel)]="selectedtile">
           <option disabled selected value="">{{ translations.PLEASE_CHOOSE_AN_OPTION }}</option>
           <option style="border-bottom: 1px solid black;" value="Gres">{{ translations.GRES }}</option>
           <option value="Porcelain">{{ translations.PORCELAIN }}</option>
@@ -32,7 +32,7 @@
         </select>
       </div>
       <div class="part-two">
-        <h2 class="child-heading" style="margin-bottom: 15px;">{{ translations.TILE_MEASUREMENTS }}</h2>
+        <h2 class="child-heading" style="margin-bottom: 10px;">{{ translations.TILE_MEASUREMENTS }}</h2>
         <h3 class="child-title">{{ translations.TILE_WIDTH_CM }}</h3>
         <input type="number" [(ngModel)]="tileWidth" class="num-input" id="tileWidth">
 
@@ -43,7 +43,7 @@
         <input placeholder="cm" type="number" [(ngModel)]="tileThickness" class="num-input" id="tileThickness">
 
         <h3 class="child-title">{{ translations.JOINT_GAP_MM }}</h3>
-        <input placeholder="cm" type="number" [(ngModel)]="tileJoint" class="num-input" id="tileThickness">
+        <input placeholder="cm" type="number" [(ngModel)]="tileJoint" class="num-input" style="margin-bottom: 40px;" id="tileThickness">
         
         <h2 class="child-heading" style="margin-bottom: 15px;">{{ translations.AREA_SIZE }}</h2>
         <div style=" border: 1px solid black; padding: 0px !important; width: 80px; text-align: center; margin: 0 auto; height: 26px; margin-bottom: 15px;">
@@ -56,7 +56,7 @@
           </div>
         </div>
 
-        <button class="calc-button" (click)="toggleCalculate()">{{ isCalculating ? 'Nowe obliczenia >' : 'Oblicz > ' }}</button>
+        <button class="calc-button" (click)="toggleCalculate()">{{ isCalculating ? 'Oblicz ponownie >' : 'Oblicz > ' }}</button>
       </div>
     </div>
 
