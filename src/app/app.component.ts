@@ -42,32 +42,40 @@ export class AppComponent {
 
   // Expanded imageData type with properties for three tile sets
   imageData: {
-    name?: string,
-    images: string[],
-    imageLink?: string,  
-    result?: string,
-    size1?: string,
-    unit1?: string,
-    size2?: string,
-    unit2?: string,
-    name2?: string,
-    images2?: string[],
-    imageLink2?: string,  
-    result2?: string,
-    size3?: string,
-    unit3?: string,
-    size4?: string,
-    unit4?: string,
-    name3?: string,
-    images3?: string[],
-    imageLink3?: string,  
-    result3?: string,
-    size5?: string,
-    unit5?: string,
-    size6?: string,
-    unit6?: string,
-    isValid: boolean,
-    message?: string
+    name?: string;
+    images: string[];
+    imageLink?: string;
+    result?: string;
+    
+    size1?: string;
+    unit1?: string;
+    
+    size2?: string;
+    unit2?: string;
+    
+    name2?: string;
+    images2?: string[];
+    imageLink2?: string;
+    result2?: string;
+    size3?: string; // This should remain as it refers to the 25kg, ensure no overwrites
+    unit3?: string;
+    
+    size4?: string;
+    unit4?: string;
+    size5?: string;
+    unit5?: string;
+    
+    name3?: string;
+    images3?: string[];
+    imageLink3?: string;
+    result3?: string;
+    size6?: string;
+    unit6?: string;
+    size7?: string; // New sizes for the third product set
+    unit7?: string; // Corresponding units
+    
+    isValid: boolean;
+    message?: string;
   } = { images: [], images2: [], images3: [], isValid: true };
 
   // Constants
@@ -139,11 +147,14 @@ export class AppComponent {
           name: tileData.name,
           images: tileData.images1 || [],
           imageLink: tileData.imageLink1 || '',
-          size1: tileData.sizevalue,
-          unit1: tileData.unitvalue,
-          size2: tileData.size2value,
-          unit2: tileData.unit2value,
+          size1: tileData.sizevalue,   // Original sizevalue
+          unit1: tileData.unitvalue,   // Original unitvalue
+          size2: tileData.size2value,  // Size 2kg from JSON
+          unit2: tileData.unit2value,  // Unit for size 2
+          size3: tileData.size3value,  // Size 25kg from JSON
+          unit3: tileData.unit3value,  // Unit for size 25
           result: tileData.result,
+  
           isValid: true
         };
 
@@ -153,10 +164,12 @@ export class AppComponent {
             name2: tileData.name2,
             images2: tileData.images2 || [],
             imageLink2: tileData.imageLink2 || '',
-            size3: tileData.sizevalue3,
-            unit3: tileData.unitvalue3,
-            size4: tileData.size4value,
-            unit4: tileData.unit4value,
+            size4: tileData.sizevalue3,
+            unit4: tileData.unitvalue3,
+            size5: tileData.size4value,
+            unit5: tileData.unit4value,
+            size6: tileData.size4value,
+            unit6: tileData.unit4value,
             result2: tileData.result2
           };
         }
@@ -165,10 +178,10 @@ export class AppComponent {
             name3: tileData.name3,
             images3: tileData.images3 || [],
             imageLink3: tileData.imageLink1 || '',
-            size5: tileData.sizevalue4,
-            unit5: tileData.unitvalue4,
-            size6: tileData.size5value,
-            unit6: tileData.unit5value,
+            size6: tileData.sizevalue4,
+            unit6: tileData.unitvalue4,
+            size7: tileData.size5value,
+            unit7: tileData.unit5value,
             result3: tileData.result3
           };
         }
@@ -240,5 +253,19 @@ export class AppComponent {
       console.error("Document body is not available");
     }
   }
+
+  calculateUnits(result: number, size?: string): number {
+    if (!size) {
+      console.error('Size is undefined or invalid');
+      return 0;  // or handle as appropriate, maybe return 1 depending on your business logic
+    }
+  
+    const sizeNumber = parseFloat(size.replace('kg', ''));
+    if (result <= sizeNumber) {
+      return 1;
+    }
+    return Math.ceil(result / sizeNumber);
+  }
+  
   
 }
