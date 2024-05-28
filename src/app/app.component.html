@@ -113,11 +113,11 @@
           <p style="font-size: 12px;">{{ translations.PRODUCT_QUANTITY_NEEDED }}</p>
           <p style="font-weight: bold; margin-bottom: 15px;">{{ result2 }} Kg</p>
         
-          <div *ngIf="imageData.size3 && imageData.unit3">
+          <div *ngIf="imageData.size4 && imageData.unit4">
             <p style="font-size: 12px;">{{ translations.PACKAGING_SIZE }}</p>
             <p style="font-weight: bold; margin-bottom: 10px;">{{ imageData.size4 }}</p>
             <p style="font-size: 12px;">{{ translations.NUMBER_OF_UNITS }}</p>
-            <p style="font-weight: bold;">{{ calculateUnits(result1, imageData.size1) }}</p>
+            <p style="font-weight: bold;">{{ calculateUnits(result1, imageData.size4) }}</p>
           </div>
         
           <div *ngIf="imageData.size5 && imageData.unit5">
