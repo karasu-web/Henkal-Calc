@@ -78,27 +78,35 @@
           <h3>{{ imageData.name }}</h3>
           <p style="font-size: 12px;">{{ translations.PRODUCT_QUANTITY_NEEDED }}</p>
           <p style="font-weight: bold; margin-bottom: 15px;">{{ result1 }} Kg</p>
-          <p style="font-size: 12px;">{{ translations.PACKAGING_SIZE }}</p>
-          <p style="font-weight: bold;">{{ imageData.size1 }}</p>
-          <p style="font-size: 12px;">{{ translations.NUMBER_OF_UNITS }}</p>
-          <p style="font-weight: bold;">{{ calculateUnits(result1, imageData.size1) }}</p>
-
-          <p style="font-size: 12px;">{{ translations.PACKAGING_SIZE }}</p>
-          <p style="font-weight: bold;">{{ imageData.size2 }}</p>
-          <p style="font-size: 12px;">{{ translations.NUMBER_OF_UNITS }}</p>
-          <p style="font-weight: bold;">{{ calculateUnits(result1, imageData.size2) }}</p>
-
-        <p style="font-size: 12px;">{{ translations.PACKAGING_SIZE }}</p>
-        <p style="font-weight: bold;">{{ imageData.size3 }}</p>
-        <p style="font-size: 12px;">{{ translations.NUMBER_OF_UNITS }}</p>
-        <p style="font-weight: bold;">{{ calculateUnits(result1, imageData.size3) }}</p>
-
-      
-          <div *ngFor="let imageUrl of imageData.images">
-            <img style="width: 188px; " [src]="imageUrl" alt="{{ imageData.name }}">
+        
+          <div *ngIf="imageData.size1 && imageData.unit1">
+            <p style="font-size: 12px;">{{ translations.PACKAGING_SIZE }}</p>
+            <p style="font-weight: bold;">{{ imageData.size1 }}</p>
+            <p style="font-size: 12px;">{{ translations.NUMBER_OF_UNITS }}</p>
+            <p style="font-weight: bold;">{{ calculateUnits(result1, imageData.size1) }}</p>
           </div>
+        
+          <div *ngIf="imageData.size2 && imageData.unit2">
+            <p style="font-size: 12px;">{{ translations.PACKAGING_SIZE }}</p>
+            <p style="font-weight: bold;">{{ imageData.size2 }}</p>
+            <p style="font-size: 12px;">{{ translations.NUMBER_OF_UNITS }}</p>
+            <p style="font-weight: bold;">{{ calculateUnits(result1, imageData.size2) }}</p>
+          </div>
+        
+          <div *ngIf="imageData.size3 && imageData.unit3">
+            <p style="font-size: 12px;">{{ translations.PACKAGING_SIZE }}</p>
+            <p style="font-weight: bold;">{{ imageData.size3 }}</p>
+            <p style="font-size: 12px;">{{ translations.NUMBER_OF_UNITS }}</p>
+            <p style="font-weight: bold;">{{ calculateUnits(result1, imageData.size3) }}</p>
+          </div>
+        
+          <div *ngFor="let imageUrl of imageData.images">
+            <img style="width: 188px;" [src]="imageUrl" alt="{{ imageData.name }}">
+          </div>
+        
           <a style="text-decoration: none; color: white; font-size: 10px; margin-bottom: 10px;" *ngIf="imageData.imageLink" [href]="imageData.imageLink" target="_blank">Zobacz więcej</a>
         </div>
+        
       
         <div style="margin-bottom: 15px;" *ngIf="imageData.name2">
           <h3>{{ imageData.name2 }}</h3>
@@ -109,7 +117,7 @@
             <p style="font-size: 12px;">{{ translations.PACKAGING_SIZE }}</p>
             <p style="font-weight: bold; margin-bottom: 10px;">{{ imageData.size4 }}</p>
             <p style="font-size: 12px;">{{ translations.NUMBER_OF_UNITS }}</p>
-            <p style="font-weight: bold; margin-bottom: 10px;">{{ imageData.unit4 }}</p>
+            <p style="font-weight: bold;">{{ calculateUnits(result1, imageData.size1) }}</p>
           </div>
         
           <div *ngIf="imageData.size5 && imageData.unit5">
@@ -117,6 +125,13 @@
             <p style="font-weight: bold; margin-bottom: 10px;">{{ imageData.size5 }}</p>
             <p style="font-size: 12px;">{{ translations.NUMBER_OF_UNITS }}</p>
             <p style="font-weight: bold; margin-bottom: 10px;">{{ imageData.unit5 }}</p>
+          </div>
+
+          <div *ngIf="imageData.size6 && imageData.unit6">
+            <p style="font-size: 12px;">{{ translations.PACKAGING_SIZE }}</p>
+            <p style="font-weight: bold; margin-bottom: 10px;">{{ imageData.size6 }}</p>
+            <p style="font-size: 12px;">{{ translations.NUMBER_OF_UNITS }}</p>
+            <p style="font-weight: bold; margin-bottom: 10px;">{{ imageData.unit6 }}</p>
           </div>
         
           <div *ngFor="let imageUrl of imageData.images2">
@@ -130,15 +145,29 @@
           <h3>{{ imageData.name3 }}</h3>
           <p style="font-size: 12px;">{{ translations.PRODUCT_QUANTITY_NEEDED }}</p>
           <p style="font-weight: bold; margin-bottom: 15px;">{{ result1 }} Kg</p>
-          <p style="font-size: 12px; ">{{ translations.PACKAGING_SIZE }}</p>
-          <p style="font-weight: bold;  margin-bottom: 10px;">{{ imageData.size5 }}</p>
-          <p style="font-size: 12px;">{{ translations.NUMBER_OF_UNITS }}</p>
-          <p style="font-weight: bold;  margin-bottom: 10px;">{{ imageData.unit5 }}</p>
-          <p style="font-size: 12px;">{{ translations.PACKAGING_SIZE }}</p>
-          <p style="font-weight: bold;  margin-bottom: 10px;">{{ imageData.size6 }}</p>
-          <p style="font-size: 12px;">{{ translations.NUMBER_OF_UNITS }}</p>
-          <p style="font-weight: bold;  margin-bottom: 10px;">{{ imageData.unit6 }}</p>
-      
+          
+          <div *ngIf="imageData.size7 && imageData.unit7">
+            <p style="font-size: 12px;">{{ translations.PACKAGING_SIZE }}</p>
+            <p style="font-weight: bold; margin-bottom: 10px;">{{ imageData.size7 }}</p>
+            <p style="font-size: 12px;">{{ translations.NUMBER_OF_UNITS }}</p>
+            <p style="font-weight: bold;">{{ calculateUnits(result1, imageData.size7) }}</p>
+          </div>
+
+          <div *ngIf="imageData.size8 && imageData.unit8">
+            <p style="font-size: 12px;">{{ translations.PACKAGING_SIZE }}</p>
+            <p style="font-weight: bold; margin-bottom: 10px;">{{ imageData.size8 }}</p>
+            <p style="font-size: 12px;">{{ translations.NUMBER_OF_UNITS }}</p>
+            <p style="font-weight: bold;">{{ calculateUnits(result1, imageData.size8) }}</p>
+          </div>
+
+          <div *ngIf="imageData.size9 && imageData.unit9">
+            <p style="font-size: 12px;">{{ translations.PACKAGING_SIZE }}</p>
+            <p style="font-weight: bold; margin-bottom: 10px;">{{ imageData.size9 }}</p>
+            <p style="font-size: 12px;">{{ translations.NUMBER_OF_UNITS }}</p>
+            <p style="font-weight: bold;">{{ calculateUnits(result1, imageData.size9) }}</p>
+          </div>
+
+
           <div *ngFor="let imageUrl of imageData.images3">
             <img style="width: 188px; " [src]="imageUrl" alt="{{ imageData.name3 }}">
           </div>

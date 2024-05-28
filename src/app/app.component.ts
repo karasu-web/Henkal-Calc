@@ -71,8 +71,12 @@ export class AppComponent {
     result3?: string;
     size6?: string;
     unit6?: string;
-    size7?: string; // New sizes for the third product set
-    unit7?: string; // Corresponding units
+    size7?: string; 
+    unit7?: string; 
+    size8?: string; 
+    unit8?: string;
+    size9?: string; 
+    unit9?: string;
     
     isValid: boolean;
     message?: string;
@@ -147,12 +151,12 @@ export class AppComponent {
           name: tileData.name,
           images: tileData.images1 || [],
           imageLink: tileData.imageLink1 || '',
-          size1: tileData.sizevalue,   // Original sizevalue
-          unit1: tileData.unitvalue,   // Original unitvalue
-          size2: tileData.size2value,  // Size 2kg from JSON
-          unit2: tileData.unit2value,  // Unit for size 2
-          size3: tileData.size3value,  // Size 25kg from JSON
-          unit3: tileData.unit3value,  // Unit for size 25
+          size1: tileData.size1,   // Original sizevalue
+          unit1: tileData.unit1,   // Original unitvalue
+          size2: tileData.size2,  // Size 2kg from JSON
+          unit2: tileData.unit2,  // Unit for size 2
+          size3: tileData.size3,  // Size 25kg from JSON
+          unit3: tileData.unit3,  // Unit for size 25
           result: tileData.result,
   
           isValid: true
@@ -164,12 +168,12 @@ export class AppComponent {
             name2: tileData.name2,
             images2: tileData.images2 || [],
             imageLink2: tileData.imageLink2 || '',
-            size4: tileData.sizevalue3,
-            unit4: tileData.unitvalue3,
-            size5: tileData.size4value,
-            unit5: tileData.unit4value,
-            size6: tileData.size4value,
-            unit6: tileData.unit4value,
+            size4: tileData.size4,
+            unit4: tileData.unit4,
+            size5: tileData.size5,
+            unit5: tileData.unit5,
+            size6: tileData.size6,
+            unit6: tileData.unit6,
             result2: tileData.result2
           };
         }
@@ -178,10 +182,12 @@ export class AppComponent {
             name3: tileData.name3,
             images3: tileData.images3 || [],
             imageLink3: tileData.imageLink1 || '',
-            size6: tileData.sizevalue4,
-            unit6: tileData.unitvalue4,
-            size7: tileData.size5value,
-            unit7: tileData.unit5value,
+            size7: tileData.size7,
+            unit7: tileData.unit7,
+            size8: tileData.size8,
+            unit8: tileData.unit8,
+            size9: tileData.size9,
+            unit9: tileData.unit9,
             result3: tileData.result3
           };
         }
