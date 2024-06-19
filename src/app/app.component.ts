@@ -8,7 +8,8 @@ import { MatSliderModule } from '@angular/material/slider';
 import { CommonModule } from '@angular/common';
 // import * as translations from '../assets/pl.json';
 import * as translations from '../assets/sr.json';
-import * as productImages from '../assets/PI.json';
+// import * as productImages from '../assets/PI.json';
+import * as productImages from '../assets/SR_product.json';
 import html2canvas from 'html2canvas';
 
 
