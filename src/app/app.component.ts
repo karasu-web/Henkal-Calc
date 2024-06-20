@@ -196,7 +196,8 @@ export class AppComponent {
 
         return result;
       } else {
-        return { message: 'Nie zalecamy żadnego produktu do tego zastosowania', isValid: false };
+        // return { message: 'Nie zalecamy żadnego produktu do tego zastosowania', isValid: false };
+        return { message: 'Ne preporučujemo nijedan proizvod za ovu upotrebu', isValid: false };
       }
     } else {
       // Check if the category itself exists but has no products
