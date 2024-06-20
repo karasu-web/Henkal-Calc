@@ -1,7 +1,7 @@
 { 
  "Bathrooms": {
   "Gres": {
-    "name": "CERESIT CE 40 PREMIUM FLEX",
+    "name": "CE 40 PREMIUM FLEX FUGA ELASTIC JOINT FILLER",
     "size1": "2kg",
     "unit1": "1",
     "size2": "5kg",
@@ -9,11 +9,11 @@
     "size3": "25kg",
     "unit3": "1",
     "images1": ["assets/p2.webp"],
-    "imageLink1": "https://www.ceresit.rs/proizvodi/keramika/tiling-waterproofing/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html"
+    "imageLink1": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html"
     
   },
   "Porcelain": {
-    "name": "CERESIT CE 40 PREMIUM FLEX",
+    "name": "CE 40 PREMIUM FLEX FUGA ELASTIC JOINT FILLER",
     "size1": "2kg",
     "unit1": "1",
     "size2": "5kg",
@@ -21,11 +21,11 @@
     "size3": "25kg",
     "unit3": "1",
     "images1": ["assets/p2.webp"],
-    "imageLink1": "https://www.ceresit.rs/proizvodi/keramika/tiling-waterproofing/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html"
+    "imageLink1": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html"
    
   },
   "Earthenware": {
-    "name": "CERESIT CE 40 PREMIUM FLEX",
+    "name": "CE 40 PREMIUM FLEX FUGA ELASTIC JOINT FILLER",
     "size1": "2kg",
     "unit1": "1",
     "size2": "5kg",
@@ -33,21 +33,21 @@
     "size3": "25kg",
     "unit3": "1",
     "images1": ["assets/p2.webp"],
-    "imageLink1": "https://www.ceresit.rs/proizvodi/keramika/tiling-waterproofing/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html",
+    "imageLink1": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html",
    
-    "name2": "CERESIT CE 33 COMFORT",
-    "result2": "value",
-    "size4": "2kg",
-    "unit4": "1",
-    "size5": "5kg",
-    "unit5": "1",
-    "size6": "25kg",
-    "unit6": "1",
-    "images2": ["assets/p1.webp"],
-    "imageLink2": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-33-comfort/SAP_0201SFC013M4.html"
+    "name3": "CERESIT CE 33 COMFORT",
+    "result3": "value",
+    "size7": "2kg",
+    "unit7": "1",
+    "size8": "5kg",
+    "unit8": "1",
+    "size9": "25kg",
+    "unit9": "1",
+    "images3": ["assets/p1.webp"],
+    "imageLink3": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-33-comfort/SAP_0201SFC013M4.html"
   },
   "Stoneware": {
-   "name": "CERESIT CE 40 PREMIUM FLEX",
+    "name": "CE 40 PREMIUM FLEX FUGA ELASTIC JOINT FILLER",
     "size1": "2kg",
     "unit1": "1",
     "size2": "5kg",
@@ -55,21 +55,21 @@
     "size3": "25kg",
     "unit3": "1",
     "images1": ["assets/p2.webp"],
-    "imageLink1": "https://www.ceresit.rs/proizvodi/keramika/tiling-waterproofing/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html",
+    "imageLink1": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html",
    
-    "name2": "CERESIT CE 33 COMFORT",
-    "result2": "value",
-    "size4": "2kg",
-    "unit4": "1",
-    "size5": "5kg",
-    "unit5": "1",
-    "size6": "25kg",
-    "unit6": "1",
-    "images2": ["assets/p1.webp"],
-    "imageLink2": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-33-comfort/SAP_0201SFC013M4.html"
+    "name3": "CERESIT CE 33 COMFORT",
+    "result3": "value",
+    "size7": "2kg",
+    "unit7": "1",
+    "size8": "5kg",
+    "unit8": "1",
+    "size9": "25kg",
+    "unit9": "1",
+    "images3": ["assets/p1.webp"],
+    "imageLink3": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-33-comfort/SAP_0201SFC013M4.html"
   },
   "Natural stone": {
-    "name": "CERESIT CE 40 PREMIUM FLEX",
+    "name": "CE 40 PREMIUM FLEX FUGA ELASTIC JOINT FILLER",
     "size1": "2kg",
     "unit1": "1",
     "size2": "5kg",
@@ -77,7 +77,7 @@
     "size3": "25kg",
     "unit3": "1",
     "images1": ["assets/p2.webp"],
-    "imageLink1": "https://www.ceresit.rs/proizvodi/keramika/tiling-waterproofing/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html"
+    "imageLink1": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html"
     
   },
   "Glass mosaics": {
@@ -98,7 +98,7 @@
     
   },
   "Mosaic": {
-    "name": "CERESIT CE 40 PREMIUM FLEX",
+    "name": "CE 40 PREMIUM FLEX FUGA ELASTIC JOINT FILLER",
     "size1": "2kg",
     "unit1": "1",
     "size2": "5kg",
@@ -106,7 +106,7 @@
     "size3": "25kg",
     "unit3": "1",
     "images1": ["assets/p2.webp"],
-    "imageLink1": "https://www.ceresit.rs/proizvodi/keramika/tiling-waterproofing/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html"
+    "imageLink1": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html"
    
   }
   },
@@ -115,7 +115,7 @@
 
   "Kitchen": {
     "Gres": {
-      "name": "CERESIT CE 40 PREMIUM FLEX",
+      "name": "CE 40 PREMIUM FLEX FUGA ELASTIC JOINT FILLER",
     "size1": "2kg",
     "unit1": "1",
     "size2": "5kg",
@@ -123,11 +123,11 @@
     "size3": "25kg",
     "unit3": "1",
     "images1": ["assets/p2.webp"],
-    "imageLink1": "https://www.ceresit.rs/proizvodi/keramika/tiling-waterproofing/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html"
+    "imageLink1": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html"
    
     },
     "Porcelain": {
-      "name": "CERESIT CE 40 PREMIUM FLEX",
+      "name": "CE 40 PREMIUM FLEX FUGA ELASTIC JOINT FILLER",
       "size1": "2kg",
       "unit1": "1",
       "size2": "5kg",
@@ -135,11 +135,11 @@
       "size3": "25kg",
       "unit3": "1",
       "images1": ["assets/p2.webp"],
-      "imageLink1": "https://www.ceresit.rs/proizvodi/keramika/tiling-waterproofing/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html"
+      "imageLink1": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html"
      
     },
     "Earthenware": {
-      "name": "CERESIT CE 40 PREMIUM FLEX",
+      "name": "CE 40 PREMIUM FLEX FUGA ELASTIC JOINT FILLER",
       "size1": "2kg",
       "unit1": "1",
       "size2": "5kg",
@@ -147,43 +147,43 @@
       "size3": "25kg",
       "unit3": "1",
       "images1": ["assets/p2.webp"],
-      "imageLink1": "https://www.ceresit.rs/proizvodi/keramika/tiling-waterproofing/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html",
+      "imageLink1": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html",
       
-      "name2": "CERESIT CE 33 COMFORT",
-      "result2": "value",
-      "size4": "2kg",
-      "unit4": "1",
-      "size5": "5kg",
-      "unit5": "1",
-      "size6": "25kg",
-      "unit6": "1",
-      "images2": ["assets/p1.webp"],
-      "imageLink2": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-33-comfort/SAP_0201SFC013M4.html"
+      "name3": "CERESIT CE 33 COMFORT",
+      "result3": "value",
+      "size7": "2kg",
+      "unit7": "1",
+      "size8": "5kg",
+      "unit8": "1",
+      "size9": "25kg",
+      "unit9": "1",
+      "images3": ["assets/p1.webp"],
+      "imageLink3": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-33-comfort/SAP_0201SFC013M4.html"
     },
     "Stoneware": {
-   "name": "CERESIT CE 40 PREMIUM FLEX",
-      "size1": "2kg",
-      "unit1": "1",
-      "size2": "5kg",
-      "unit2": "1",
-      "size3": "25kg",
-      "unit3": "1",
-      "images1": ["assets/p2.webp"],
-      "imageLink1": "https://www.ceresit.rs/proizvodi/keramika/tiling-waterproofing/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html",
-      
-      "name2": "CERESIT CE 33 COMFORT",
-      "result2": "value",
-      "size4": "2kg",
-      "unit4": "1",
-      "size5": "5kg",
-      "unit5": "1",
-      "size6": "25kg",
-      "unit6": "1",
-      "images2": ["assets/p1.webp"],
-      "imageLink2": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-33-comfort/SAP_0201SFC013M4.html"
+      "name": "CE 40 PREMIUM FLEX FUGA ELASTIC JOINT FILLER",
+    "size1": "2kg",
+    "unit1": "1",
+    "size2": "5kg",
+    "unit2": "1",
+    "size3": "25kg",
+    "unit3": "1",
+    "images1": ["assets/p2.webp"],
+    "imageLink1": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html",
+   
+    "name3": "CERESIT CE 33 COMFORT",
+    "result3": "value",
+    "size7": "2kg",
+    "unit7": "1",
+    "size8": "5kg",
+    "unit8": "1",
+    "size9": "25kg",
+    "unit9": "1",
+    "images3": ["assets/p1.webp"],
+    "imageLink3": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-33-comfort/SAP_0201SFC013M4.html"
     },
     "Natural stone": {
-      "name": "CERESIT CE 40 PREMIUM FLEX",
+      "name": "CE 40 PREMIUM FLEX FUGA ELASTIC JOINT FILLER",
       "size1": "2kg",
       "unit1": "1",
       "size2": "5kg",
@@ -191,7 +191,7 @@
       "size3": "25kg",
       "unit3": "1",
       "images1": ["assets/p2.webp"],
-      "imageLink1": "https://www.ceresit.rs/proizvodi/keramika/tiling-waterproofing/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html"
+      "imageLink1": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html"
     
      
     },
@@ -207,7 +207,7 @@
      
     },
     "Mosaic": {
-      "name": "CERESIT CE 40 PREMIUM FLEX",
+      "name": "CE 40 PREMIUM FLEX FUGA ELASTIC JOINT FILLER",
       "size1": "2kg",
       "unit1": "1",
       "size2": "5kg",
@@ -215,13 +215,13 @@
       "size3": "25kg",
       "unit3": "1",
       "images1": ["assets/p2.webp"],
-      "imageLink1": "https://www.ceresit.rs/proizvodi/keramika/tiling-waterproofing/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html"
+      "imageLink1": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html"
       
     }
   },
   "Living rooms": {
     "Gres": {
-      "name": "CERESIT CE 40 PREMIUM FLEX",
+      "name": "CE 40 PREMIUM FLEX FUGA ELASTIC JOINT FILLER",
       "size1": "2kg",
       "unit1": "1",
       "size2": "5kg",
@@ -229,11 +229,11 @@
       "size3": "25kg",
       "unit3": "1",
       "images1": ["assets/p2.webp"],
-      "imageLink1": "https://www.ceresit.rs/proizvodi/keramika/tiling-waterproofing/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html"
+      "imageLink1": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html"
      
     },
     "Porcelain": {
-      "name": "CERESIT CE 40 PREMIUM FLEX",
+      "name": "CE 40 PREMIUM FLEX FUGA ELASTIC JOINT FILLER",
       "size1": "2kg",
       "unit1": "1",
       "size2": "5kg",
@@ -241,33 +241,33 @@
       "size3": "25kg",
       "unit3": "1",
       "images1": ["assets/p2.webp"],
-      "imageLink1": "https://www.ceresit.rs/proizvodi/keramika/tiling-waterproofing/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html"
+      "imageLink1": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html"
       
     },
     "Earthenware": {
-    "name": "CERESIT CE 40 PREMIUM FLEX",
-      "size1": "2kg",
-      "unit1": "1",
-      "size2": "5kg",
-      "unit2": "1",
-      "size3": "25kg",
-      "unit3": "1",
-      "images1": ["assets/p2.webp"],
-      "imageLink1": "https://www.ceresit.rs/proizvodi/keramika/tiling-waterproofing/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html",
-      
-      "name2": "CERESIT CE 33 COMFORT",
-      "result2": "value",
-      "size4": "2kg",
-      "unit4": "1",
-      "size5": "5kg",
-      "unit5": "1",
-      "size6": "25kg",
-      "unit6": "1",
-      "images2": ["assets/p1.webp"],
-      "imageLink2": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-33-comfort/SAP_0201SFC013M4.html"
+    "name": "CE 40 PREMIUM FLEX FUGA ELASTIC JOINT FILLER",
+    "size1": "2kg",
+    "unit1": "1",
+    "size2": "5kg",
+    "unit2": "1",
+    "size3": "25kg",
+    "unit3": "1",
+    "images1": ["assets/p2.webp"],
+    "imageLink1": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html",
+   
+    "name3": "CERESIT CE 33 COMFORT",
+    "result3": "value",
+    "size7": "2kg",
+    "unit7": "1",
+    "size8": "5kg",
+    "unit8": "1",
+    "size9": "25kg",
+    "unit9": "1",
+    "images3": ["assets/p1.webp"],
+    "imageLink3": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-33-comfort/SAP_0201SFC013M4.html"
     },
     "Stoneware": {
-      "name": "CERESIT CE 40 PREMIUM FLEX",
+      "name": "CE 40 PREMIUM FLEX FUGA ELASTIC JOINT FILLER",
       "size1": "2kg",
       "unit1": "1",
       "size2": "5kg",
@@ -275,21 +275,21 @@
       "size3": "25kg",
       "unit3": "1",
       "images1": ["assets/p2.webp"],
-      "imageLink1": "https://www.ceresit.rs/proizvodi/keramika/tiling-waterproofing/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html",
+      "imageLink1": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html",
       
-      "name2": "CERESIT CE 33 COMFORT",
-      "result2": "value",
-      "size4": "2kg",
-      "unit4": "1",
-      "size5": "5kg",
-      "unit5": "1",
-      "size6": "25kg",
-      "unit6": "1",
-      "images2": ["assets/p1.webp"],
-      "imageLink2": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-33-comfort/SAP_0201SFC013M4.html"
+      "name3": "CERESIT CE 33 COMFORT",
+      "result3": "value",
+      "size7": "2kg",
+      "unit7": "1",
+      "size8": "5kg",
+      "unit8": "1",
+      "size9": "25kg",
+      "unit9": "1",
+      "images3": ["assets/p1.webp"],
+      "imageLink3": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-33-comfort/SAP_0201SFC013M4.html"
     },
     "Natural stone": {
-      "name": "CERESIT CE 40 PREMIUM FLEX",
+      "name": "CE 40 PREMIUM FLEX FUGA ELASTIC JOINT FILLER",
       "size1": "2kg",
       "unit1": "1",
       "size2": "5kg",
@@ -297,7 +297,7 @@
       "size3": "25kg",
       "unit3": "1",
       "images1": ["assets/p2.webp"],
-      "imageLink1": "https://www.ceresit.rs/proizvodi/keramika/tiling-waterproofing/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html"
+      "imageLink1": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html"
      
     },
     "Glass mosaics": {
@@ -310,15 +310,15 @@
       "images1": ["assets/p6.webp"],
       "imageLink1": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-89-/SAP_0201SQC013O0.html", 
       
-      "name2": "CE 79 ULTRAEPOXY INDUSTRIAL",
-      "result2": "value",
-      "size4": "5kg",
-      "unit4": "1",
-      "images2": ["assets/p5.webp"],
-      "imageLink2":"https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-79-/SAP_0201SQC013N9.html"
+      "name3": "CE 79 ULTRAEPOXY INDUSTRIAL",
+      "result3": "value",
+      "size7": "5kg",
+      "unit7": "1",
+      "images3": ["assets/p5.webp"],
+      "imageLink3":"https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-79-/SAP_0201SQC013N9.html"
     },
     "Mosaic": {
-      "name": "CERESIT CE 40 PREMIUM FLEX",
+      "name": "CE 40 PREMIUM FLEX FUGA ELASTIC JOINT FILLER",
       "size1": "2kg",
       "unit1": "1",
       "size2": "5kg",
@@ -326,7 +326,7 @@
       "size3": "25kg",
       "unit3": "1",
       "images1": ["assets/p2.webp"],
-      "imageLink1": "https://www.ceresit.rs/proizvodi/keramika/tiling-waterproofing/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html"
+      "imageLink1": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html"
       
     }
   },
@@ -341,18 +341,18 @@
       "images1": ["assets/p6.webp"],
       "imageLink1": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-89-/SAP_0201SQC013O0.html", 
       
-      "name2": "CERESIT CE 40 PREMIUM FLEX",
-      "size4": "2kg",
-      "unit4": "1",
-      "size5": "5kg",
-      "unit5": "1",
-      "size6": "25kg",
-      "unit6": "1",
-      "images2": ["assets/p2.webp"],
-      "imageLink2": "https://www.ceresit.rs/proizvodi/keramika/tiling-waterproofing/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html"
+      "name3": "CE 40 PREMIUM FLEX FUGA ELASTIC JOINT FILLER",
+      "size7": "2kg",
+      "unit7": "1",
+      "size8": "5kg",
+      "unit8": "1",
+      "size9": "25kg",
+      "unit9": "1",
+      "images3": ["assets/p2.webp"],
+      "imageLink3": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html"
     },
     "Porcelain": {
-     "name": "CE 89 ULTRAEPOXY PREMIUM",
+      "name": "CE 89 ULTRAEPOXY PREMIUM",
       "result": "value",
       "size1": "2kg",
       "unit1": "1",
@@ -360,16 +360,16 @@
       "unit2": "1",
       "images1": ["assets/p6.webp"],
       "imageLink1": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-89-/SAP_0201SQC013O0.html", 
-      
-      "name2": "CERESIT CE 40 PREMIUM FLEX",
-      "size4": "2kg",
-      "unit4": "1",
-      "size5": "5kg",
-      "unit5": "1",
-      "size6": "25kg",
-      "unit6": "1",
-      "images2": ["assets/p2.webp"],
-      "imageLink2": "https://www.ceresit.rs/proizvodi/keramika/tiling-waterproofing/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html"
+     
+      "name3": "CE 40 PREMIUM FLEX FUGA ELASTIC JOINT FILLER",
+      "size7": "2kg",
+      "unit7": "1",
+      "size8": "5kg",
+      "unit8": "1",
+      "size9": "25kg",
+      "unit9": "1",
+      "images3": ["assets/p2.webp"],
+      "imageLink3": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html"
     },
     "Earthenware": {
       "name": "CE 89 ULTRAEPOXY PREMIUM",
@@ -381,14 +381,14 @@
       "images1": ["assets/p6.webp"],
       "imageLink1": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-89-/SAP_0201SQC013O0.html", 
      
-      "name2": "CE 43 GRAND'ELIT",
-      "result2": "value",
-      "size4": "5kg",
-      "unit4": "1",
-      "size5": "25kg",
-      "unit5": "1",
-      "images2": ["assets/p3.webp"],
-      "imageLink2": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-43-grandelit/SAP_0201SGC013N1.html"
+      "name3": "CE 43 GRAND'ELIT",
+      "result3": "value",
+      "size7": "5kg",
+      "unit7": "1",
+      "size8": "25kg",
+      "unit8": "1",
+      "images3": ["assets/p3.webp"],
+      "imageLink3": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-43-grandelit/SAP_0201SGC013N1.html"
     },
     "Stoneware": {
       "name": "CE 89 ULTRAEPOXY PREMIUM",
@@ -400,14 +400,14 @@
       "images1": ["assets/p6.webp"],
       "imageLink1": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-89-/SAP_0201SQC013O0.html", 
       
-      "name2": "CE 43 GRAND'ELIT",
-      "result2": "value",
-      "size4": "5kg",
-      "unit4": "1",
-      "size5": "25kg",
-      "unit5": "1",
-      "images2": ["assets/p3.webp"],
-      "imageLink2": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-43-grandelit/SAP_0201SGC013N1.html"
+      "name3": "CE 43 GRAND'ELIT",
+      "result3": "value",
+      "size7": "5kg",
+      "unit7": "1",
+      "size8": "25kg",
+      "unit8": "1",
+      "images3": ["assets/p3.webp"],
+      "imageLink3": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-43-grandelit/SAP_0201SGC013N1.html"
     },
     "Natural stone": {
       "name": "CE 89 ULTRAEPOXY PREMIUM",
@@ -430,15 +430,15 @@
       "images1": ["assets/p6.webp"],
       "imageLink1": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-89-/SAP_0201SQC013O0.html", 
       
-      "name2": "CE 79 ULTRAEPOXY INDUSTRIAL",
-      "result2": "value",
-      "size4": "5kg",
-      "unit4": "1",
-      "images2": ["assets/p5.webp"],
-      "imageLink2":"https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-79-/SAP_0201SQC013N9.html"
+      "name3": "CE 79 ULTRAEPOXY INDUSTRIAL",
+      "result3": "value",
+      "size7": "5kg",
+      "unit7": "1",
+      "images3": ["assets/p5.webp"],
+      "imageLink3":"https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-79-/SAP_0201SQC013N9.html"
     },
     "Mosaic": {
-     "name": "CE 89 ULTRAEPOXY PREMIUM",
+      "name": "CE 89 ULTRAEPOXY PREMIUM",
       "result": "value",
       "size1": "2kg",
       "unit1": "1",
@@ -447,12 +447,12 @@
       "images1": ["assets/p6.webp"],
       "imageLink1": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-89-/SAP_0201SQC013O0.html", 
       
-      "name2": "CE 79 ULTRAEPOXY INDUSTRIAL",
-      "result2": "value",
-      "size4": "5kg",
-      "unit4": "1",
-      "images2": ["assets/p5.webp"],
-      "imageLink2":"https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-79-/SAP_0201SQC013N9.html"
+      "name3": "CE 79 ULTRAEPOXY INDUSTRIAL",
+      "result3": "value",
+      "size7": "5kg",
+      "unit7": "1",
+      "images3": ["assets/p5.webp"],
+      "imageLink3":"https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-79-/SAP_0201SQC013N9.html"
     }
   },
   "Pools": {
@@ -545,7 +545,7 @@
   },
   "Balconies/Terraces": {
     "Gres": {
-      "name": "CERESIT CE 40 PREMIUM FLEX",
+      "name": "CE 40 PREMIUM FLEX FUGA ELASTIC JOINT FILLER",
       "size1": "2kg",
       "unit1": "1",
       "size2": "5kg",
@@ -553,7 +553,7 @@
       "size3": "25kg",
       "unit3": "1",
       "images1": ["assets/p2.webp"],
-      "imageLink1": "https://www.ceresit.rs/proizvodi/keramika/tiling-waterproofing/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html",
+      "imageLink1": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html",
       "name2": "CE 89 ULTRAEPOXY PREMIUM",
       "resul2": "value",
       "size4": "2kg",
@@ -564,7 +564,7 @@
       "imageLink2": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-89-/SAP_0201SQC013O0.html"
     },
     "Porcelain": {
-      "name": "CERESIT CE 40 PREMIUM FLEX",
+      "name": "CE 40 PREMIUM FLEX FUGA ELASTIC JOINT FILLER",
       "size1": "2kg",
       "unit1": "1",
       "size2": "5kg",
@@ -572,7 +572,7 @@
       "size3": "25kg",
       "unit3": "1",
       "images1": ["assets/p2.webp"],
-      "imageLink1": "https://www.ceresit.rs/proizvodi/keramika/tiling-waterproofing/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html",
+      "imageLink1": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html",
       "name2": "CE 89 ULTRAEPOXY PREMIUM",
       "resul2": "value",
       "size4": "2kg",
@@ -589,7 +589,7 @@
       
     },
     "Natural stone": {
-      "name": "CERESIT CE 40 PREMIUM FLEX",
+      "name": "CE 40 PREMIUM FLEX FUGA ELASTIC JOINT FILLER",
       "size1": "2kg",
       "unit1": "1",
       "size2": "5kg",
@@ -597,7 +597,7 @@
       "size3": "25kg",
       "unit3": "1",
       "images1": ["assets/p2.webp"],
-      "imageLink1": "https://www.ceresit.rs/proizvodi/keramika/tiling-waterproofing/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html"
+      "imageLink1": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html"
       
     },
     "Glass mosaics": {
@@ -634,7 +634,7 @@
       "size6": "25kg",
       "unit6": "1",
       "images2": ["assets/p2.webp"],
-      "imageLink2": "https://www.ceresit.rs/proizvodi/keramika/tiling-waterproofing/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html"
+      "imageLink2": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html"
     },
     "Porcelain": {
       "name": "CE 89 ULTRAEPOXY PREMIUM",
@@ -654,7 +654,7 @@
       "size6": "25kg",
       "unit6": "1",
       "images2": ["assets/p2.webp"],
-      "imageLink2": "https://www.ceresit.rs/proizvodi/keramika/tiling-waterproofing/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html"
+      "imageLink2": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html"
     },
     "Earthenware": {
       
@@ -663,7 +663,7 @@
       
     },
     "Natural stone": {
-      "name": "CERESIT CE 40 PREMIUM FLEX",
+      "name": "CE 40 PREMIUM FLEX FUGA ELASTIC JOINT FILLER",
       "size1": "2kg",
       "unit1": "1",
       "size2": "5kg",
@@ -671,7 +671,7 @@
       "size3": "25kg",
       "unit3": "1",
       "images1": ["assets/p2.webp"],
-      "imageLink1": "https://www.ceresit.rs/proizvodi/keramika/tiling-waterproofing/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html",
+      "imageLink1": "https://www.ceresit.pl/products/tiling/central-pdp.html/ceresit-ce-40/SAP_0201SGC013M9.html",
       "name2": "CE 89 ULTRAEPOXY PREMIUM",
       "resul2": "value",
       "size4": "2kg",

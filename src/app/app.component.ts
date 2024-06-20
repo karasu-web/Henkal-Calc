@@ -8,8 +8,10 @@ import { MatSliderModule } from '@angular/material/slider';
 import { CommonModule } from '@angular/common';
 // import * as translations from '../assets/pl.json';
 import * as translations from '../assets/sr.json';
+// import * as translations from '../assets/ro.json';
 // import * as productImages from '../assets/PI.json';
 import * as productImages from '../assets/SR_product.json';
+// import * as productImages from '../assets/RO_product.json';
 import html2canvas from 'html2canvas';
 
 
@@ -202,7 +204,8 @@ export class AppComponent {
     } else {
       // Check if the category itself exists but has no products
       if (areaData && !(tile in areaData)) {
-        return { message: 'No products suggested for this category', isValid: false };
+        // return { message: 'No products suggested for this category', isValid: false };
+        return { message: 'Ne preporučujemo nijedan proizvod za ovu upotrebu', isValid: false };
       }
       // Default fallback if no data is available for the area or tile
       return { images: ['path/to/default_image.jpg'], isValid: true };
