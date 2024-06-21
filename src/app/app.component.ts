@@ -7,11 +7,13 @@ import { FormsModule } from '@angular/forms';
 import { MatSliderModule } from '@angular/material/slider';
 import { CommonModule } from '@angular/common';
 // import * as translations from '../assets/pl.json';
-// import * as translations from '../assets/sr.json';
-import * as translations from '../assets/ro.json';
+import * as translations from '../assets/sr.json';
+// import * as translations from '../assets/ro.json';
+// import * as translations from '../assets/cz.json';
 // import * as productImages from '../assets/PI.json';
-// import * as productImages from '../assets/SR_product.json';
-import * as productImages from '../assets/RO_product.json';
+import * as productImages from '../assets/SR_product.json';
+// import * as productImages from '../assets/RO_product.json';
+// import * as productImages from '../assets/CZ_product.json';
 import html2canvas from 'html2canvas';
 
 
@@ -199,13 +201,13 @@ export class AppComponent {
         return result;
       } else {
         // return { message: 'Nie zalecamy żadnego produktu do tego zastosowania', isValid: false };
-        return { message: 'Ne preporučujemo nijedan proizvod za ovu upotrebu', isValid: false };
+        return { message: 'We do not recommend any product for this use', isValid: false };
       }
     } else {
       // Check if the category itself exists but has no products
       if (areaData && !(tile in areaData)) {
         // return { message: 'No products suggested for this category', isValid: false };
-        return { message: 'Ne preporučujemo nijedan proizvod za ovu upotrebu', isValid: false };
+        return { message: 'We do not recommend any product for this use', isValid: false };
       }
       // Default fallback if no data is available for the area or tile
       return { images: ['path/to/default_image.jpg'], isValid: true };
