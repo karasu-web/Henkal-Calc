@@ -187,7 +187,7 @@ export class AppComponent {
           result = { ...result,
             name3: tileData.name3,
             images3: tileData.images3 || [],
-            imageLink3: tileData.imageLink1 || '',
+            imageLink3: tileData.imageLink3 || '',
             size7: tileData.size7,
             unit7: tileData.unit7,
             size8: tileData.size8,
