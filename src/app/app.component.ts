@@ -9,17 +9,22 @@ import { CommonModule } from '@angular/common';
 // import * as translations from '../assets/pl.json';
 // import * as translations from '../assets/sr.json';
 // import * as translations from '../assets/ro.json';
+
 // import * as translations from '../assets/cz.json';
 // import * as translations from '../assets/sk.json';
 // import * as translations from '../assets/bg.json';
-import * as translations from '../assets/hr.json';
+// import * as translations from '../assets/hr.json';
+import * as translations from '../assets/at.json';
+
+
 // import * as productImages from '../assets/PI.json';
 // import * as productImages from '../assets/SR_product.json';
 // import * as productImages from '../assets/RO_product.json';
 // import * as productImages from '../assets/CZ_product.json';
 // import * as productImages from '../assets/SK_product.json';
 // import * as productImages from '../assets/BG_product.json';
-import * as productImages from '../assets/HR_product.json';
+// import * as productImages from '../assets/HR_product.json';
+import * as productImages from '../assets/AT_product.json';
 import html2canvas from 'html2canvas';
 
 
