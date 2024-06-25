@@ -15,7 +15,8 @@ import { CommonModule } from '@angular/common';
 // import * as translations from '../assets/bg.json';
 // import * as translations from '../assets/hr.json';
 // import * as translations from '../assets/at.json';
-import * as translations from '../assets/ba.json';
+// import * as translations from '../assets/ba.json';
+import * as translations from '../assets/lt.json';
 
 
 // import * as productImages from '../assets/PI.json';
@@ -26,7 +27,8 @@ import * as translations from '../assets/ba.json';
 // import * as productImages from '../assets/BG_product.json';
 // import * as productImages from '../assets/HR_product.json';
 // import * as productImages from '../assets/AT_product.json';
-import * as productImages from '../assets/BA_product.json';
+// import * as productImages from '../assets/BA_product.json';
+import * as productImages from '../assets/LT_product.json';
 import html2canvas from 'html2canvas';
 
 
