@@ -238,19 +238,29 @@
   },
   "Entrance/corridor": {
     "Gres": {
+     "name": "CE 40 PREMIUM FLEX FUGA ",
+      "size1": "2kg",
+      "unit1": "1",
+      "size2": "5kg",
+      "unit2": "1",
+      "size3": "25kg",
+      "unit3": "1",
+      "images1": ["assets/ce40_SI.webp"],
+      "imageLink1": "https://www.ceresit.si/izdelki/polaganje-ploscic/izdelek.html/ceresit-ce-40/SAP_0201SGC013M9.html"
      
     },
     "Porcelain": {
      
-      "name3": "CE 40 PREMIUM FLEX FUGA ",
-      "size7": "2kg",
-      "unit7": "1",
-      "size8": "5kg",
-      "unit8": "1",
-      "size9": "25kg",
-      "unit9": "1",
-      "images3": ["assets/ce40_SI.webp"],
-      "imageLink3": "https://www.ceresit.si/izdelki/polaganje-ploscic/izdelek.html/ceresit-ce-40/SAP_0201SGC013M9.html"
+      "name": "CE 40 PREMIUM FLEX FUGA ",
+      "size1": "2kg",
+      "unit1": "1",
+      "size2": "5kg",
+      "unit2": "1",
+      "size3": "25kg",
+      "unit3": "1",
+      "images1": ["assets/ce40_SI.webp"],
+      "imageLink1": "https://www.ceresit.si/izdelki/polaganje-ploscic/izdelek.html/ceresit-ce-40/SAP_0201SGC013M9.html"
+     
     },
     "Earthenware": {
      
