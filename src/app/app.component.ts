@@ -19,7 +19,8 @@ import { CommonModule } from '@angular/common';
 // import * as translations from '../assets/lt.json';
 // import * as translations from '../assets/lv.json';
 // import * as translations from '../assets/et.json';
-import * as translations from '../assets/si.json';
+// import * as translations from '../assets/si.json';
+import * as translations from '../assets/hu.json';
 
 
 // import * as productImages from '../assets/PI.json';
@@ -34,7 +35,8 @@ import * as translations from '../assets/si.json';
 // import * as productImages from '../assets/LT_product.json';
 // import * as productImages from '../assets/LV_product.json';
 // import * as productImages from '../assets/ET_product.json';
-import * as productImages from '../assets/SI_product.json';
+// import * as productImages from '../assets/SI_product.json';
+import * as productImages from '../assets/HU_product.json';
 import html2canvas from 'html2canvas';
 
 
