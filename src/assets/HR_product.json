@@ -1,63 +1,63 @@
 { 
  "Bathrooms": {
   "Gres": {
-    "name": "CERESIT CE 40 PREMIUM FLEX",
+    "name": "CE 40 AQUASTATIC",
     "size1": "2kg",
     "unit1": "1",
     "size2": "5kg",
     "unit2": "1",
     "size3": "25kg",
     "unit3": "1",
-    "images1": ["assets/p2.webp"],
+    "images1": ["assets/ce40_CR.webp"],
     "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-40/SAP_0201SGC013M9.html"
     
   },
   "Porcelain": {
-    "name": "CERESIT CE 40 PREMIUM FLEX",
+    "name": "CE 40 AQUASTATIC",
     "size1": "2kg",
     "unit1": "1",
     "size2": "5kg",
     "unit2": "1",
     "size3": "25kg",
     "unit3": "1",
-    "images1": ["assets/p2.webp"],
+    "images1": ["assets/ce40_CR.webp"],
     "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-40/SAP_0201SGC013M9.html"
    
   },
   "Earthenware": {
-    "name": "CERESIT CE 40 PREMIUM FLEX",
+    "name": "CE 40 AQUASTATIC",
     "size1": "2kg",
     "unit1": "1",
     "size2": "5kg",
     "unit2": "1",
     "size3": "25kg",
     "unit3": "1",
-    "images1": ["assets/p2.webp"],
+    "images1": ["assets/ce40_CR.webp"],
     "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-40/SAP_0201SGC013M9.html"
    
   
   },
   "Stoneware": {
-   "name": "CERESIT CE 40 PREMIUM FLEX",
+   "name": "CE 40 AQUASTATIC",
     "size1": "2kg",
     "unit1": "1",
     "size2": "5kg",
     "unit2": "1",
     "size3": "25kg",
     "unit3": "1",
-    "images1": ["assets/p2.webp"],
+    "images1": ["assets/ce40_CR.webp"],
     "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-40/SAP_0201SGC013M9.html"
    
   },
   "Natural stone": {
-    "name": "CERESIT CE 40 PREMIUM FLEX",
+    "name": "CE 40 AQUASTATIC",
     "size1": "2kg",
     "unit1": "1",
     "size2": "5kg",
     "unit2": "1",
     "size3": "25kg",
     "unit3": "1",
-    "images1": ["assets/p2.webp"],
+    "images1": ["assets/ce40_CR.webp"],
     "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-40/SAP_0201SGC013M9.html"
     
   },
@@ -68,25 +68,25 @@
     "unit1": "1",
     "size2": "5kg",
     "unit2": "1",
-    "images1": ["assets/ce89_white.webp"],
+    "images1": ["assets/ce89_CR.webp"],
     "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-89/SAP_0201SQC013O0.html", 
     "name2": "CE 79 ULTRAEPOXY INDUSTRIAL",
     "result2": "value",
     "size4": "5kg",
     "unit4": "1",
-    "images2": ["assets/ce79_white.webp"],
+    "images2": ["assets/ce79_CR.webp"],
     "imageLink2":"https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-79/SAP_0201SQC013N9.html"
     
   },
   "Mosaic": {
-    "name": "CERESIT CE 40 PREMIUM FLEX",
+    "name": "CE 40 AQUASTATIC",
     "size1": "2kg",
     "unit1": "1",
     "size2": "5kg",
     "unit2": "1",
     "size3": "25kg",
     "unit3": "1",
-    "images1": ["assets/p2.webp"],
+    "images1": ["assets/ce40_CR.webp"],
     "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-40/SAP_0201SGC013M9.html"
    
   }
@@ -96,64 +96,64 @@
 
   "Kitchen": {
     "Gres": {
-      "name": "CERESIT CE 40 PREMIUM FLEX",
+      "name": "CE 40 AQUASTATIC",
     "size1": "2kg",
     "unit1": "1",
     "size2": "5kg",
     "unit2": "1",
     "size3": "25kg",
     "unit3": "1",
-    "images1": ["assets/p2.webp"],
+    "images1": ["assets/ce40_CR.webp"],
     "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-40/SAP_0201SGC013M9.html"
    
     },
     "Porcelain": {
-      "name": "CERESIT CE 40 PREMIUM FLEX",
+      "name": "CE 40 AQUASTATIC",
       "size1": "2kg",
       "unit1": "1",
       "size2": "5kg",
       "unit2": "1",
       "size3": "25kg",
       "unit3": "1",
-      "images1": ["assets/p2.webp"],
+      "images1": ["assets/ce40_CR.webp"],
       "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-40/SAP_0201SGC013M9.html"
      
     },
     "Earthenware": {
-      "name": "CERESIT CE 40 PREMIUM FLEX",
+      "name": "CE 40 AQUASTATIC",
       "size1": "2kg",
       "unit1": "1",
       "size2": "5kg",
       "unit2": "1",
       "size3": "25kg",
       "unit3": "1",
-      "images1": ["assets/p2.webp"],
+      "images1": ["assets/ce40_CR.webp"],
       "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-40/SAP_0201SGC013M9.html"
       
      
     },
     "Stoneware": {
-   "name": "CERESIT CE 40 PREMIUM FLEX",
+   "name": "CE 40 AQUASTATIC",
       "size1": "2kg",
       "unit1": "1",
       "size2": "5kg",
       "unit2": "1",
       "size3": "25kg",
       "unit3": "1",
-      "images1": ["assets/p2.webp"],
+      "images1": ["assets/ce40_CR.webp"],
       "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-40/SAP_0201SGC013M9.html"
       
       
     },
     "Natural stone": {
-      "name": "CERESIT CE 40 PREMIUM FLEX",
+      "name": "CE 40 AQUASTATIC",
       "size1": "2kg",
       "unit1": "1",
       "size2": "5kg",
       "unit2": "1",
       "size3": "25kg",
       "unit3": "1",
-      "images1": ["assets/p2.webp"],
+      "images1": ["assets/ce40_CR.webp"],
       "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-40/SAP_0201SGC013M9.html"
     
      
@@ -165,83 +165,83 @@
       "unit1": "1",
       "size2": "5kg",
       "unit2": "1",
-      "images1": ["assets/ce89_white.webp"],
+      "images1": ["assets/ce89_CR.webp"],
       "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-89/SAP_0201SQC013O0.html"
      
     },
     "Mosaic": {
-      "name": "CERESIT CE 40 PREMIUM FLEX",
+      "name": "CE 40 AQUASTATIC",
       "size1": "2kg",
       "unit1": "1",
       "size2": "5kg",
       "unit2": "1",
       "size3": "25kg",
       "unit3": "1",
-      "images1": ["assets/p2.webp"],
+      "images1": ["assets/ce40_CR.webp"],
       "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-40/SAP_0201SGC013M9.html"
       
     }
   },
   "Living rooms": {
     "Gres": {
-      "name": "CERESIT CE 40 PREMIUM FLEX",
+      "name": "CE 40 AQUASTATIC",
       "size1": "2kg",
       "unit1": "1",
       "size2": "5kg",
       "unit2": "1",
       "size3": "25kg",
       "unit3": "1",
-      "images1": ["assets/p2.webp"],
+      "images1": ["assets/ce40_CR.webp"],
       "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-40/SAP_0201SGC013M9.html"
      
     },
     "Porcelain": {
-      "name": "CERESIT CE 40 PREMIUM FLEX",
+      "name": "CE 40 AQUASTATIC",
       "size1": "2kg",
       "unit1": "1",
       "size2": "5kg",
       "unit2": "1",
       "size3": "25kg",
       "unit3": "1",
-      "images1": ["assets/p2.webp"],
+      "images1": ["assets/ce40_CR.webp"],
       "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-40/SAP_0201SGC013M9.html"
       
     },
     "Earthenware": {
-    "name": "CERESIT CE 40 PREMIUM FLEX",
+    "name": "CE 40 AQUASTATIC",
       "size1": "2kg",
       "unit1": "1",
       "size2": "5kg",
       "unit2": "1",
       "size3": "25kg",
       "unit3": "1",
-      "images1": ["assets/p2.webp"],
+      "images1": ["assets/ce40_CR.webp"],
       "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-40/SAP_0201SGC013M9.html"
       
      
     },
     "Stoneware": {
-      "name": "CERESIT CE 40 PREMIUM FLEX",
+      "name": "CE 40 AQUASTATIC",
       "size1": "2kg",
       "unit1": "1",
       "size2": "5kg",
       "unit2": "1",
       "size3": "25kg",
       "unit3": "1",
-      "images1": ["assets/p2.webp"],
+      "images1": ["assets/ce40_CR.webp"],
       "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-40/SAP_0201SGC013M9.html"
       
       
     },
     "Natural stone": {
-      "name": "CERESIT CE 40 PREMIUM FLEX",
+      "name": "CE 40 AQUASTATIC",
       "size1": "2kg",
       "unit1": "1",
       "size2": "5kg",
       "unit2": "1",
       "size3": "25kg",
       "unit3": "1",
-      "images1": ["assets/p2.webp"],
+      "images1": ["assets/ce40_CR.webp"],
       "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-40/SAP_0201SGC013M9.html"
      
     },
@@ -252,25 +252,25 @@
       "unit1": "1",
       "size2": "5kg",
       "unit2": "1",
-      "images1": ["assets/ce89_white.webp"],
+      "images1": ["assets/ce89_CR.webp"],
       "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-89/SAP_0201SQC013O0.html", 
       
       "name2": "CE 79 ULTRAEPOXY INDUSTRIAL",
       "result2": "value",
       "size4": "5kg",
       "unit4": "1",
-      "images2": ["assets/ce79_white.webp"],
+      "images2": ["assets/ce79_CR.webp"],
       "imageLink2":"https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-79/SAP_0201SQC013N9.html"
     },
     "Mosaic": {
-      "name": "CERESIT CE 40 PREMIUM FLEX",
+      "name": "CE 40 AQUASTATIC",
       "size1": "2kg",
       "unit1": "1",
       "size2": "5kg",
       "unit2": "1",
       "size3": "25kg",
       "unit3": "1",
-      "images1": ["assets/p2.webp"],
+      "images1": ["assets/ce40_CR.webp"],
       "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-40/SAP_0201SGC013M9.html"
       
     }
@@ -283,17 +283,17 @@
       "unit1": "1",
       "size2": "5kg",
       "unit2": "1",
-      "images1": ["assets/ce89_white.webp"],
+      "images1": ["assets/ce89_CR.webp"],
       "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-89/SAP_0201SQC013O0.html", 
       
-      "name2": "CERESIT CE 40 PREMIUM FLEX",
+      "name2": "CE 40 AQUASTATIC",
       "size4": "2kg",
       "unit4": "1",
       "size5": "5kg",
       "unit5": "1",
       "size6": "25kg",
       "unit6": "1",
-      "images2": ["assets/p2.webp"],
+      "images2": ["assets/ce40_CR.webp"],
       "imageLink2": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-40/SAP_0201SGC013M9.html"
     },
     "Porcelain": {
@@ -303,17 +303,17 @@
       "unit1": "1",
       "size2": "5kg",
       "unit2": "1",
-      "images1": ["assets/ce89_white.webp"],
+      "images1": ["assets/ce89_CR.webp"],
       "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-89/SAP_0201SQC013O0.html", 
       
-      "name2": "CERESIT CE 40 PREMIUM FLEX",
+      "name2": "CE 40 AQUASTATIC",
       "size4": "2kg",
       "unit4": "1",
       "size5": "5kg",
       "unit5": "1",
       "size6": "25kg",
       "unit6": "1",
-      "images2": ["assets/p2.webp"],
+      "images2": ["assets/ce40_CR.webp"],
       "imageLink2": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-40/SAP_0201SGC013M9.html"
     },
     "Earthenware": {
@@ -323,7 +323,7 @@
       "unit1": "1",
       "size2": "5kg",
       "unit2": "1",
-      "images1": ["assets/ce89_white.webp"],
+      "images1": ["assets/ce89_CR.webp"],
       "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-89/SAP_0201SQC013O0.html", 
      
       "name2": "CE 43 GRAND'ELIT",
@@ -332,7 +332,7 @@
       "unit4": "1",
       "size5": "25kg",
       "unit5": "1",
-      "images2": ["assets/p3.webp"],
+      "images2": ["assets/ce43_CR.webp"],
       "imageLink2": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-43/SAP_0201SGC013N1.html"
     },
     "Stoneware": {
@@ -342,7 +342,7 @@
       "unit1": "1",
       "size2": "5kg",
       "unit2": "1",
-      "images1": ["assets/ce89_white.webp"],
+      "images1": ["assets/ce89_CR.webp"],
       "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-89/SAP_0201SQC013O0.html", 
       
       "name2": "CE 43 GRAND'ELIT",
@@ -351,7 +351,7 @@
       "unit4": "1",
       "size5": "25kg",
       "unit5": "1",
-      "images2": ["assets/p3.webp"],
+      "images2": ["assets/ce43_CR.webp"],
       "imageLink2": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-43/SAP_0201SGC013N1.html"
     },
     "Natural stone": {
@@ -361,7 +361,7 @@
       "unit1": "1",
       "size2": "5kg",
       "unit2": "1",
-      "images1": ["assets/ce89_white.webp"],
+      "images1": ["assets/ce89_CR.webp"],
       "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-89/SAP_0201SQC013O0.html"
      
     },
@@ -372,14 +372,14 @@
       "unit1": "1",
       "size2": "5kg",
       "unit2": "1",
-      "images1": ["assets/ce89_white.webp"],
+      "images1": ["assets/ce89_CR.webp"],
       "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-89/SAP_0201SQC013O0.html", 
       
       "name2": "CE 79 ULTRAEPOXY INDUSTRIAL",
       "result2": "value",
       "size4": "5kg",
       "unit4": "1",
-      "images2": ["assets/ce79_white.webp"],
+      "images2": ["assets/ce79_CR.webp"],
       "imageLink2":"https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-79/SAP_0201SQC013N9.html"
     },
     "Mosaic": {
@@ -389,14 +389,14 @@
       "unit1": "1",
       "size2": "5kg",
       "unit2": "1",
-      "images1": ["assets/ce89_white.webp"],
+      "images1": ["assets/ce89_CR.webp"],
       "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-89/SAP_0201SQC013O0.html", 
       
       "name2": "CE 79 ULTRAEPOXY INDUSTRIAL",
       "result2": "value",
       "size4": "5kg",
       "unit4": "1",
-      "images2": ["assets/ce79_white.webp"],
+      "images2": ["assets/ce79_CR.webp"],
       "imageLink2":"https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-79/SAP_0201SQC013N9.html"
     }
   },
@@ -408,13 +408,13 @@
       "unit1": "1",
       "size2": "5kg",
       "unit2": "1",
-      "images1": ["assets/ce89_white.webp"],
+      "images1": ["assets/ce89_CR.webp"],
       "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-89/SAP_0201SQC013O0.html", 
       "name2": "CE 79 ULTRAEPOXY INDUSTRIAL",
       "result2": "value",
       "size4": "5kg",
       "unit4": "1",
-      "images2": ["assets/ce79_white.webp"],
+      "images2": ["assets/ce79_CR.webp"],
       "imageLink2":"https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-79/SAP_0201SQC013N9.html"
     },
     "Porcelain": {
@@ -424,13 +424,13 @@
       "unit1": "1",
       "size2": "5kg",
       "unit2": "1",
-      "images1": ["assets/ce89_white.webp"],
+      "images1": ["assets/ce89_CR.webp"],
       "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-89/SAP_0201SQC013O0.html", 
       "name2": "CE 79 ULTRAEPOXY INDUSTRIAL",
       "result2": "value",
       "size4": "5kg",
       "unit4": "1",
-      "images2": ["assets/ce79_white.webp"],
+      "images2": ["assets/ce79_CR.webp"],
       "imageLink2":"https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-79/SAP_0201SQC013N9.html"
     },
     "Earthenware": {
@@ -446,13 +446,13 @@
     "unit1": "1",
     "size2": "5kg",
     "unit2": "1",
-    "images1": ["assets/ce89_white.webp"],
+    "images1": ["assets/ce89_CR.webp"],
     "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-89/SAP_0201SQC013O0.html", 
     "name2": "CE 79 ULTRAEPOXY INDUSTRIAL",
     "result2": "value",
     "size4": "5kg",
     "unit4": "1",
-    "images2": ["assets/ce79_white.webp"],
+    "images2": ["assets/ce79_CR.webp"],
     "imageLink2":"https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-79/SAP_0201SQC013N9.html"
     },
     "Glass mosaics": {
@@ -462,13 +462,13 @@
     "unit1": "1",
     "size2": "5kg",
     "unit2": "1",
-    "images1": ["assets/ce89_white.webp"],
+    "images1": ["assets/ce89_CR.webp"],
     "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-89/SAP_0201SQC013O0.html", 
     "name2": "CE 79 ULTRAEPOXY INDUSTRIAL",
     "result2": "value",
     "size4": "5kg",
     "unit4": "1",
-    "images2": ["assets/ce79_white.webp"],
+    "images2": ["assets/ce79_CR.webp"],
     "imageLink2":"https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-79/SAP_0201SQC013N9.html"
     },
     "Mosaic": {
@@ -478,26 +478,26 @@
       "unit1": "1",
       "size2": "5kg",
       "unit2": "1",
-      "images1": ["assets/ce89_white.webp"],
+      "images1": ["assets/ce89_CR.webp"],
       "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-89/SAP_0201SQC013O0.html", 
       "name2": "CE 79 ULTRAEPOXY INDUSTRIAL",
       "result2": "value",
       "size4": "5kg",
       "unit4": "1",
-      "images2": ["assets/ce79_white.webp"],
+      "images2": ["assets/ce79_CR.webp"],
       "imageLink2":"https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-79/SAP_0201SQC013N9.html"
     }
   },
   "Balconies/Terraces": {
     "Gres": {
-      "name": "CERESIT CE 40 PREMIUM FLEX",
+      "name": "CE 40 AQUASTATIC",
       "size1": "2kg",
       "unit1": "1",
       "size2": "5kg",
       "unit2": "1",
       "size3": "25kg",
       "unit3": "1",
-      "images1": ["assets/p2.webp"],
+      "images1": ["assets/ce40_CR.webp"],
       "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-40/SAP_0201SGC013M9.html",
       "name2": "CE 89 ULTRAEPOXY PREMIUM",
       "resul2": "value",
@@ -505,18 +505,18 @@
       "unit4": "1",
       "size5": "5kg",
       "unit5": "1",
-      "images2": ["assets/ce89_white.webp"],
+      "images2": ["assets/ce89_CR.webp"],
       "imageLink2": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-89/SAP_0201SQC013O0.html"
     },
     "Porcelain": {
-      "name": "CERESIT CE 40 PREMIUM FLEX",
+      "name": "CE 40 AQUASTATIC",
       "size1": "2kg",
       "unit1": "1",
       "size2": "5kg",
       "unit2": "1",
       "size3": "25kg",
       "unit3": "1",
-      "images1": ["assets/p2.webp"],
+      "images1": ["assets/ce40_CR.webp"],
       "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-40/SAP_0201SGC013M9.html",
       "name2": "CE 89 ULTRAEPOXY PREMIUM",
       "resul2": "value",
@@ -524,7 +524,7 @@
       "unit4": "1",
       "size5": "5kg",
       "unit5": "1",
-      "images2": ["assets/ce89_white.webp"],
+      "images2": ["assets/ce89_CR.webp"],
       "imageLink2": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-89/SAP_0201SQC013O0.html"
     },
     "Earthenware": {
@@ -534,14 +534,14 @@
       
     },
     "Natural stone": {
-      "name": "CERESIT CE 40 PREMIUM FLEX",
+      "name": "CE 40 AQUASTATIC",
       "size1": "2kg",
       "unit1": "1",
       "size2": "5kg",
       "unit2": "1",
       "size3": "25kg",
       "unit3": "1",
-      "images1": ["assets/p2.webp"],
+      "images1": ["assets/ce40_CR.webp"],
       "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-40/SAP_0201SGC013M9.html"
       
     },
@@ -555,7 +555,7 @@
       "unit1": "1",
       "size2": "5kg",
       "unit2": "1",
-      "images1": ["assets/ce89_white.webp"],
+      "images1": ["assets/ce89_CR.webp"],
       "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-89/SAP_0201SQC013O0.html"
     
     }
@@ -568,7 +568,7 @@
       "unit1": "1",
       "size2": "5kg",
       "unit2": "1",
-      "images1": ["assets/ce89_white.webp"],
+      "images1": ["assets/ce89_CR.webp"],
       "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-89/SAP_0201SQC013O0.html",
       "name2": "CE 40 AQUASTATIC",
       "result2": "value",
@@ -578,7 +578,7 @@
       "unit5": "1",
       "size6": "25kg",
       "unit6": "1",
-      "images2": ["assets/p2.webp"],
+      "images2": ["assets/ce40_CR.webp"],
       "imageLink2": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-40/SAP_0201SGC013M9.html"
     },
     "Porcelain": {
@@ -588,7 +588,7 @@
       "unit1": "1",
       "size2": "5kg",
       "unit2": "1",
-      "images1": ["assets/ce89_white.webp"],
+      "images1": ["assets/ce89_CR.webp"],
       "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-89/SAP_0201SQC013O0.html",
       "name2": "CE 40 AQUASTATIC",
       "result2": "value",
@@ -598,7 +598,7 @@
       "unit5": "1",
       "size6": "25kg",
       "unit6": "1",
-      "images2": ["assets/p2.webp"],
+      "images2": ["assets/ce40_CR.webp"],
       "imageLink2": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-40/SAP_0201SGC013M9.html"
     },
     "Earthenware": {
@@ -608,14 +608,14 @@
       
     },
     "Natural stone": {
-      "name": "CERESIT CE 40 PREMIUM FLEX",
+      "name": "CE 40 AQUASTATIC",
       "size1": "2kg",
       "unit1": "1",
       "size2": "5kg",
       "unit2": "1",
       "size3": "25kg",
       "unit3": "1",
-      "images1": ["assets/p2.webp"],
+      "images1": ["assets/ce40_CR.webp"],
       "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-40/SAP_0201SGC013M9.html",
       "name2": "CE 89 ULTRAEPOXY PREMIUM",
       "resul2": "value",
@@ -623,7 +623,7 @@
       "unit4": "1",
       "size5": "5kg",
       "unit5": "1",
-      "images2": ["assets/ce89_white.webp"],
+      "images2": ["assets/ce89_CR.webp"],
       "imageLink2": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-89/SAP_0201SQC013O0.html"
       
     },
@@ -643,13 +643,13 @@
     "unit1": "1",
     "size2": "5kg",
     "unit2": "1",
-    "images1": ["assets/ce89_white.webp"],
+    "images1": ["assets/ce89_CR.webp"],
     "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-89/SAP_0201SQC013O0.html", 
     "name2": "CE 79 ULTRAEPOXY INDUSTRIAL",
     "result2": "value",
     "size4": "5kg",
     "unit4": "1",
-    "images2": ["assets/ce79_white.webp"],
+    "images2": ["assets/ce79_CR.webp"],
     "imageLink2":"https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-79/SAP_0201SQC013N9.html"
     },
     "Porcelain": {
@@ -659,13 +659,13 @@
       "unit1": "1",
       "size2": "5kg",
       "unit2": "1",
-      "images1": ["assets/ce89_white.webp"],
+      "images1": ["assets/ce89_CR.webp"],
       "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-89/SAP_0201SQC013O0.html", 
       "name2": "CE 79 ULTRAEPOXY INDUSTRIAL",
       "result2": "value",
       "size4": "5kg",
       "unit4": "1",
-      "images2": ["assets/ce79_white.webp"],
+      "images2": ["assets/ce79_CR.webp"],
       "imageLink2":"https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-79/SAP_0201SQC013N9.html"
 
     },
@@ -682,13 +682,13 @@
       "unit1": "1",
       "size2": "5kg",
       "unit2": "1",
-      "images1": ["assets/ce89_white.webp"],
+      "images1": ["assets/ce89_CR.webp"],
       "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-89/SAP_0201SQC013O0.html", 
       "name2": "CE 79 ULTRAEPOXY INDUSTRIAL",
       "result2": "value",
       "size4": "5kg",
       "unit4": "1",
-      "images2": ["assets/ce79_white.webp"],
+      "images2": ["assets/ce79_CR.webp"],
       "imageLink2":"https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-79/SAP_0201SQC013N9.html"
       
     },
@@ -702,13 +702,13 @@
     "unit1": "1",
     "size2": "5kg",
     "unit2": "1",
-    "images1": ["assets/ce89_white.webp"],
+    "images1": ["assets/ce89_CR.webp"],
     "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-89/SAP_0201SQC013O0.html", 
     "name2": "CE 79 ULTRAEPOXY INDUSTRIAL",
     "result2": "value",
     "size4": "5kg",
     "unit4": "1",
-    "images2": ["assets/ce79_white.webp"],
+    "images2": ["assets/ce79_CR.webp"],
     "imageLink2":"https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-79/SAP_0201SQC013N9.html"
     }
   },
@@ -722,13 +722,13 @@
     "unit1": "1",
     "size2": "5kg",
     "unit2": "1",
-    "images1": ["assets/ce89_white.webp"],
+    "images1": ["assets/ce89_CR.webp"],
     "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-89/SAP_0201SQC013O0.html", 
     "name2": "CE 79 ULTRAEPOXY INDUSTRIAL",
     "result2": "value",
     "size4": "5kg",
     "unit4": "1",
-    "images2": ["assets/ce79_white.webp"],
+    "images2": ["assets/ce79_CR.webp"],
     "imageLink2":"https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-79/SAP_0201SQC013N9.html"
     },
     "Porcelain": {
@@ -738,13 +738,13 @@
     "unit1": "1",
     "size2": "5kg",
     "unit2": "1",
-    "images1": ["assets/ce89_white.webp"],
+    "images1": ["assets/ce89_CR.webp"],
     "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-89/SAP_0201SQC013O0.html", 
     "name2": "CE 79 ULTRAEPOXY INDUSTRIAL",
     "result2": "value",
     "size4": "5kg",
     "unit4": "1",
-    "images2": ["assets/ce79_white.webp"],
+    "images2": ["assets/ce79_CR.webp"],
     "imageLink2":"https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-79/SAP_0201SQC013N9.html"
     },
     "Earthenware": {
@@ -760,13 +760,13 @@
       "unit1": "1",
       "size2": "5kg",
       "unit2": "1",
-      "images1": ["assets/ce89_white.webp"],
+      "images1": ["assets/ce89_CR.webp"],
       "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-89/SAP_0201SQC013O0.html", 
       "name2": "CE 79 ULTRAEPOXY INDUSTRIAL",
       "result2": "value",
       "size4": "5kg",
       "unit4": "1",
-      "images2": ["assets/ce79_white.webp"],
+      "images2": ["assets/ce79_CR.webp"],
       "imageLink2":"https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-79/SAP_0201SQC013N9.html"
       
     },
@@ -777,13 +777,13 @@
     "unit1": "1",
     "size2": "5kg",
     "unit2": "1",
-    "images1": ["assets/ce89_white.webp"],
+    "images1": ["assets/ce89_CR.webp"],
     "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-89/SAP_0201SQC013O0.html", 
     "name2": "CE 79 ULTRAEPOXY INDUSTRIAL",
     "result2": "value",
     "size4": "5kg",
     "unit4": "1",
-    "images2": ["assets/ce79_white.webp"],
+    "images2": ["assets/ce79_CR.webp"],
     "imageLink2":"https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-79/SAP_0201SQC013N9.html"
     },
     "Mosaic": {
@@ -793,13 +793,13 @@
     "unit1": "1",
     "size2": "5kg",
     "unit2": "1",
-    "images1": ["assets/ce89_white.webp"],
+    "images1": ["assets/ce89_CR.webp"],
     "imageLink1": "https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-89/SAP_0201SQC013O0.html", 
     "name2": "CE 79 ULTRAEPOXY INDUSTRIAL",
     "result2": "value",
     "size4": "5kg",
     "unit4": "1",
-    "images2": ["assets/ce79_white.webp"],
+    "images2": ["assets/ce79_CR.webp"],
     "imageLink2":"https://www.ceresit.hr/proizvodi/polaganje-plocica/proizvod.html/ceresit-ce-79/SAP_0201SQC013N9.html"
     }
   }
