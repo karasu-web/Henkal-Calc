@@ -6,7 +6,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { FormsModule } from '@angular/forms';
 import { MatSliderModule } from '@angular/material/slider';
 import { CommonModule } from '@angular/common';
-import * as translations from '../assets/pl.json';
+// import * as translations from '../assets/pl.json';
 // import * as translations from '../assets/sr.json';
 // import * as translations from '../assets/ro.json';
 
@@ -21,9 +21,10 @@ import * as translations from '../assets/pl.json';
 // import * as translations from '../assets/et.json';
 // import * as translations from '../assets/si.json';
 // import * as translations from '../assets/hu.json';
+import * as translations from '../assets/mn.json';
 // import * as translations from '../assets/global.json';
 
-import * as productImages from '../assets/PI.json';
+// import * as productImages from '../assets/PI.json';
 // import * as productImages from '../assets/SR_product.json';
 // import * as productImages from '../assets/RO_product.json';
 // import * as productImages from '../assets/CZ_product.json';
@@ -37,6 +38,7 @@ import * as productImages from '../assets/PI.json';
 // import * as productImages from '../assets/ET_product.json';
 // import * as productImages from '../assets/SI_product.json';
 // import * as productImages from '../assets/HU_product.json';
+import * as productImages from '../assets/MN_product.json';
 // import * as productImages from '../assets/GLOBAL_product.json';
 
 import html2canvas from 'html2canvas';
