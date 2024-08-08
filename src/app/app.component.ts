@@ -18,11 +18,11 @@ import { CommonModule } from '@angular/common';
 // import * as translations from '../assets/ba.json'; 
 // import * as translations from '../assets/lt.json';
 // import * as translations from '../assets/lv.json';
-import * as translations from '../assets/et.json';
+// import * as translations from '../assets/et.json';
 // import * as translations from '../assets/si.json';
 // import * as translations from '../assets/hu.json';
 // import * as translations from '../assets/mn.json';
-// import * as translations from '../assets/global.json';
+import * as translations from '../assets/global.json';
 
 // import * as productImages from '../assets/PI.json';
 // import * as productImages from '../assets/SR_product.json';
@@ -35,11 +35,11 @@ import * as translations from '../assets/et.json';
 // import * as productImages from '../assets/BA_product.json';
 // import * as productImages from '../assets/LT_product.json';
 // import * as productImages from '../assets/LV_product.json';
-import * as productImages from '../assets/ET_product.json';
+// import * as productImages from '../assets/ET_product.json';
 // import * as productImages from '../assets/SI_product.json';
 // import * as productImages from '../assets/HU_product.json';
 // import * as productImages from '../assets/MN_product.json';
-// import * as productImages from '../assets/GLOBAL_product.json';
+import * as productImages from '../assets/GLOBAL_product.json';
 
 import html2canvas from 'html2canvas';
 
@@ -228,13 +228,13 @@ export class AppComponent {
         return result;
       } else {
         // return { message: 'Nie zalecamy żadnego produktu do tego zastosowania', isValid: false };
-        return { message: 'We do not recommend any product for this use', isValid: false };
+        return { message: `We do not recommend to use "${tile}" for this application`, isValid: false };
       }
     } else {
       // Check if the category itself exists but has no products
       if (areaData && !(tile in areaData)) {
         // return { message: 'No products suggested for this category', isValid: false };
-        return { message: 'We do not recommend any product for this use', isValid: false };
+        return { message: `We do not recommend to use "${tile}" for this application`, isValid: false };
       }
       // Default fallback if no data is available for the area or tile
       return { images: ['path/to/default_image.jpg'], isValid: true };
