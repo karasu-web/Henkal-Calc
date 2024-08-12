@@ -177,6 +177,7 @@ export class AppComponent {
   // This method fetches image URLs for a given area and tile type
   getImageUrls(area: string, tile: string): any {
     const areaData = this.productImages[area];
+    const translatedTile = this.getTranslatedTile(tile);
     if (areaData && areaData[tile]) {
       const tileData = areaData[tile];
       if (tileData && Object.keys(tileData).length > 0 && typeof tileData === 'object' && !Array.isArray(tileData)) {
@@ -228,13 +229,13 @@ export class AppComponent {
         return result;
       } else {
         // return { message: 'Nie zalecamy żadnego produktu do tego zastosowania', isValid: false };
-        return { message: `Ne preporučujemo da se koristi "${tile}" za ovu primenu`, isValid: false };
+        return { message: `Ne preporučujemo da se koristi "${translatedTile}" za ovu primenu`, isValid: false };
       }
     } else {
       // Check if the category itself exists but has no products
       if (areaData && !(tile in areaData)) {
         // return { message: 'No products suggested for this category', isValid: false };
-        return { message: `Ne preporučujemo da se koristi  "${tile}" za ovu primenu`, isValid: false };
+        return { message: `Ne preporučujemo da se koristi  "${translatedTile}" za ovu primenu`, isValid: false };
       }
       // Default fallback if no data is available for the area or tile
       return { images: ['path/to/default_image.jpg'], isValid: true };
