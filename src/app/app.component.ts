@@ -6,9 +6,9 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { FormsModule } from '@angular/forms';
 import { MatSliderModule } from '@angular/material/slider';
 import { CommonModule } from '@angular/common';
-// import * as translations from '../assets/pl.json';
+import * as translations from '../assets/pl.json';
 // import * as translations from '../assets/sr.json';
-import * as translations from '../assets/ro.json';
+// import * as translations from '../assets/ro.json';
 
 // import * as translations from '../assets/cz.json';
 // import * as translations from '../assets/sk.json';
@@ -24,9 +24,9 @@ import * as translations from '../assets/ro.json';
 // import * as translations from '../assets/mn.json';
 // import * as translations from '../assets/global.json';
 
-// import * as productImages from '../assets/PI.json';
+import * as productImages from '../assets/PI.json';
 // import * as productImages from '../assets/SR_product.json';
-import * as productImages from '../assets/RO_product.json';
+// import * as productImages from '../assets/RO_product.json';
 // import * as productImages from '../assets/CZ_product.json';
 // import * as productImages from '../assets/SK_product.json';
 // import * as productImages from '../assets/BG_product.json';
@@ -229,13 +229,13 @@ export class AppComponent {
         return result;
       } else {
         // return { message: 'Nie zalecamy żadnego produktu do tego zastosowania', isValid: false };
-        return { message: `Nu recomandam sa folositi "${translatedTile}" pentru acest tip de aplicare`, isValid: false };
+        return { message: `Nie zalecamy używania"${translatedTile}" do tej aplikacji`, isValid: false };
       }
     } else {
       // Check if the category itself exists but has no products
       if (areaData && !(tile in areaData)) {
         // return { message: 'No products suggested for this category', isValid: false };
-        return { message: `Nu recomandam sa folositi  "${translatedTile}" pentru acest tip de aplicare`, isValid: false };
+        return { message: `Nie zalecamy używania "${translatedTile}" do tej aplikacji`, isValid: false };
       }
       // Default fallback if no data is available for the area or tile
       return { images: ['path/to/default_image.jpg'], isValid: true };
