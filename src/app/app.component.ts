@@ -10,8 +10,8 @@ import { CommonModule } from '@angular/common';
 // import * as translations from '../assets/sr.json';
 // import * as translations from '../assets/ro.json';
 
-import * as translations from '../assets/cz.json';
-// import * as translations from '../assets/sk.json';
+// import * as translations from '../assets/cz.json';
+import * as translations from '../assets/sk.json';
 // import * as translations from '../assets/bg.json';
 // import * as translations from '../assets/hr.json';
 // import * as translations from '../assets/at.json';
@@ -27,8 +27,8 @@ import * as translations from '../assets/cz.json';
 // import * as productImages from '../assets/PI.json';
 // import * as productImages from '../assets/SR_product.json';
 // import * as productImages from '../assets/RO_product.json';
-import * as productImages from '../assets/CZ_product.json';
-// import * as productImages from '../assets/SK_product.json';
+// import * as productImages from '../assets/CZ_product.json';
+import * as productImages from '../assets/SK_product.json';
 // import * as productImages from '../assets/BG_product.json';
 // import * as productImages from '../assets/HR_product.json';
 // import * as productImages from '../assets/AT_product.json';
@@ -229,13 +229,13 @@ export class AppComponent {
         return result;
       } else {
         // return { message: 'Nie zalecamy żadnego produktu do tego zastosowania', isValid: false };
-        return { message: `Nedoporučujeme používat "${translatedTile}" pro tuto aplikaci`, isValid: false };
+        return { message: `Neodporúčame používať  "${translatedTile}" pre túto aplikáciu`, isValid: false };
       }
     } else {
       // Check if the category itself exists but has no products
       if (areaData && !(tile in areaData)) {
         // return { message: 'No products suggested for this category', isValid: false };
-        return { message: `Nedoporučujeme používat  "${translatedTile}" pro tuto aplikaci`, isValid: false };
+        return { message: `Neodporúčame používať   "${translatedTile}"pre túto aplikáciu`, isValid: false };
       }
       // Default fallback if no data is available for the area or tile
       return { images: ['path/to/default_image.jpg'], isValid: true };
