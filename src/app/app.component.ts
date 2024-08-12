@@ -7,7 +7,7 @@ import { FormsModule } from '@angular/forms';
 import { MatSliderModule } from '@angular/material/slider';
 import { CommonModule } from '@angular/common';
 // import * as translations from '../assets/pl.json';
-// import * as translations from '../assets/sr.json';
+import * as translations from '../assets/sr.json';
 // import * as translations from '../assets/ro.json';
 
 // import * as translations from '../assets/cz.json';
@@ -22,10 +22,10 @@ import { CommonModule } from '@angular/common';
 // import * as translations from '../assets/si.json';
 // import * as translations from '../assets/hu.json';
 // import * as translations from '../assets/mn.json';
-import * as translations from '../assets/global.json';
+// import * as translations from '../assets/global.json';
 
 // import * as productImages from '../assets/PI.json';
-// import * as productImages from '../assets/SR_product.json';
+import * as productImages from '../assets/SR_product.json';
 // import * as productImages from '../assets/RO_product.json';
 // import * as productImages from '../assets/CZ_product.json';
 // import * as productImages from '../assets/SK_product.json';
@@ -39,7 +39,7 @@ import * as translations from '../assets/global.json';
 // import * as productImages from '../assets/SI_product.json';
 // import * as productImages from '../assets/HU_product.json';
 // import * as productImages from '../assets/MN_product.json';
-import * as productImages from '../assets/GLOBAL_product.json';
+// import * as productImages from '../assets/GLOBAL_product.json';
 
 import html2canvas from 'html2canvas';
 
@@ -228,13 +228,13 @@ export class AppComponent {
         return result;
       } else {
         // return { message: 'Nie zalecamy żadnego produktu do tego zastosowania', isValid: false };
-        return { message: `We do not recommend to use "${tile}" for this application`, isValid: false };
+        return { message: `Ne preporučujemo da se koristi "${tile}" za ovu primenu`, isValid: false };
       }
     } else {
       // Check if the category itself exists but has no products
       if (areaData && !(tile in areaData)) {
         // return { message: 'No products suggested for this category', isValid: false };
-        return { message: `We do not recommend to use "${tile}" for this application`, isValid: false };
+        return { message: `Ne preporučujemo da se koristi  "${tile}" za ovu primenu`, isValid: false };
       }
       // Default fallback if no data is available for the area or tile
       return { images: ['path/to/default_image.jpg'], isValid: true };
